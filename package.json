@@ -1,0 +1,19 @@
+{
+  "name": "lives-of-others",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive entry point to Guardian obituaries.",
+  "scripts": {
+    "fetch": "node scripts/fetch-obits.js",
+    "enrich": "node scripts/enrich-obits.js",
+    "build": "node scripts/fetch-obits.js && node scripts/enrich-obits.js && node scripts/shard.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

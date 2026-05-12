@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+
+# Raw API responses (large, regenerable) — only enriched/sharded data is committed
+data/raw/
