@@ -8,9 +8,11 @@ import { sleep } from './lib/concurrency.js';
 
 const API = 'https://content.guardianapis.com/search';
 const RAW = 'data/raw/obits.json';
+const ENRICHED = 'data/enriched.json';
 const SHOW_FIELDS = 'body,trailText,thumbnail,headline,byline,main,wordcount';
 const PAGE_SIZE = 50;
 const POLITE_MS = 120;
+const INCREMENTAL_BUFFER_DAYS = 30;
 
 const args = parseArgs(process.argv);
 const apiKey = process.env.GUARDIAN_API_KEY;
@@ -22,12 +24,23 @@ if (!apiKey) {
 const yearsBack = Number(args.years ?? 15);
 const limit = args.limit ? Number(args.limit) : null;
 const force = !!args.force;
-const fromDate = args.since ?? isoDate(new Date(Date.now() - yearsBack * 365.25 * 86400_000));
 
 await mkdir('data/raw', { recursive: true });
 const existing = existsSync(RAW) ? JSON.parse(await readFile(RAW, 'utf8')) : [];
-const known = new Set(existing.map((o) => o.id));
-console.log(`Loaded ${existing.length} existing obits. Fetching from ${fromDate}…`);
+const enriched = existsSync(ENRICHED) ? JSON.parse(await readFile(ENRICHED, 'utf8')) : {};
+const known = new Set([
+  ...existing.map((o) => o.id),
+  ...Object.keys(enriched),
+]);
+
+// from-date: if we have enriched data, fetch incrementally from latest published - buffer;
+// otherwise full back-catalogue.
+const enrichedDates = Object.values(enriched).map((r) => r.published).filter(Boolean).sort();
+const fromDate = args.since
+  ?? (enrichedDates.length > 0 && !force
+        ? isoDate(new Date(Date.parse(enrichedDates.at(-1)) - INCREMENTAL_BUFFER_DAYS * 86400_000))
+        : isoDate(new Date(Date.now() - yearsBack * 365.25 * 86400_000)));
+console.log(`Loaded ${existing.length} raw, ${Object.keys(enriched).length} enriched. Fetching from ${fromDate}…`);
 
 const fresh = [];
 let page = 1;
@@ -61,7 +74,7 @@ while (page <= totalPages) {
     break;
   }
   // Caught up: every result on this page was already known (and we're not forcing).
-  if (!force && newThisPage.length === 0 && existing.length > 0) {
+  if (!force && newThisPage.length === 0 && known.size > 0) {
     console.log('  all results on this page were known — caught up.');
     break;
   }
