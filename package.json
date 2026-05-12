@@ -7,7 +7,9 @@
   "scripts": {
     "fetch": "node scripts/fetch-obits.js",
     "enrich": "node scripts/enrich-obits.js",
+    "shard": "node scripts/shard.js",
     "build": "node scripts/fetch-obits.js && node scripts/enrich-obits.js && node scripts/shard.js",
+    "dev-fixture": "node scripts/dev-fixture.js && node scripts/shard.js",
     "serve": "python3 -m http.server 8000"
   },
   "dependencies": {
