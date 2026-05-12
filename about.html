@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Lives of Others</title>
+  <meta name="description" content="What this is, how it's made, and the diary of what's been built and why.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="about-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Lives of <em>Others</em><span class="brand-sub">Guardian obituaries</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="lives.html">Lives</a>
+        <a href="about.html" aria-current="page">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <article>
+      <header>
+        <p class="eyebrow">About</p>
+        <h1>Lives of Others</h1>
+        <p class="dek">An interactive entry point to fifteen years of Guardian obituaries — not as a feed, but as a place you can poke around in.</p>
+      </header>
+
+      <p>The Guardian's obit desk publishes something like a thousand pieces a year. Most readers will see one or two by accident, on a day when somebody famous dies. The rest sit in the archive, doing nothing. They are some of the best writing the paper does and almost nobody reads them.</p>
+      <p>So this is an attempt to make them browseable, with a few editorial hooks I find more interesting than &ldquo;latest first&rdquo;:</p>
+      <ul>
+        <li><strong>Who's on today.</strong> The front page asks: of the people we have obituaries for, who was born today, who died today, and whose life ran through an anniversary that lands today? The DNA paper went out on 25 April 1953. There are five people in this archive who were in the room.</li>
+        <li><strong>Every life on a timeline.</strong> One horizontal line per person, from birth to death, laid out across a century-and-a-half. You can filter by field. You can also just enjoy the visual fact that most lives overlap with most other lives.</li>
+        <li><strong>A quote roulette.</strong> The obit writers usually find one line that captures the person. The roulette pulls those out and shows them at the size they deserve.</li>
+      </ul>
+
+      <h2>How it's put together</h2>
+      <p>The site is static HTML — no server, no framework, no analytics. A nightly GitHub Action does the work: it asks the Guardian's Content API for any new obituaries, sends each one through Claude (Haiku) to extract structured fields (born, died, field, themes, the best pull-quote, names of people mentioned, and any historical anniversaries the life touched), and writes everything back to a few JSON files. Your browser loads about 500&nbsp;KB of catalogue on first visit; year-shards load on demand.</p>
+      <p>Source on <a href="https://github.com/peter-guillam123/lives-of-others" target="_blank" rel="noopener">GitHub</a>. The Claude prompt and the build pipeline are both there if you want to read them.</p>
+
+      <h2>What it isn't</h2>
+      <p>It isn't a search engine. The obit archive on theguardian.com is, and it's better than anything I could build. It isn't a feed; it isn't a tribute. It's a different way in.</p>
+
+      <h2>Diary</h2>
+      <p class="muted" style="font-size: var(--t-sm);">Reverse-chronological notes on what's been built and why. Each entry stands alone.</p>
+
+      <section class="diary-entry milestone">
+        <span class="eyebrow">Milestone · 12 May 2026</span>
+        <h3>First public version</h3>
+        <p>Front page with three on-this-day lanes, a quote roulette, and a featured strip. Plus a lifespan ribbon — every obit in the archive as a horizontal line from birth to death. Built in an afternoon with Claude Code.</p>
+        <p>Two modes only, by design. The connections graph (which obits cite which other obits?) and thematic clusters (cold-war science, the Bloomsbury second-string, the people who were in the room) are diary entries 2 and 3.</p>
+      </section>
+
+      <section class="diary-entry">
+        <span class="eyebrow">12 May 2026</span>
+        <h3>Why structured extraction</h3>
+        <p>The Guardian's API gives you the obit text, the byline, the tags, the date of publication. It doesn't give you the year the person was born, or the field they worked in, or the quote that captures them. To do &ldquo;on this day in lives&rdquo; you need that data extracted from the prose, and there's no clean way to do that with regex. So the build sends each obit through Claude (Haiku) with a tight schema and a careful prompt. Costs a few pence per nightly run after the back-catalogue is done.</p>
+      </section>
+
+      <section class="diary-entry">
+        <span class="eyebrow">12 May 2026</span>
+        <h3>The shape that didn't get built</h3>
+        <p>The first sketch had a force-directed graph of who was mentioned in whose obituary — pull the strings, find a cluster of physicists, click into one. It's a great idea on a 27-inch monitor and a terrible idea on a phone. The ribbon is the version that survives the mobile pass. Some day, maybe, on a "graph" page with a confidence warning.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>An interactive guide to <a href="https://www.theguardian.com/tone/obituaries" target="_blank" rel="noopener">Guardian obituaries</a>.</p>
+      <p>Built by Chris Moran (<a href="https://github.com/peter-guillam123/lives-of-others" target="_blank" rel="noopener">source</a>) · obit text and images © Guardian News &amp; Media</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lives of Others — Guardian obituaries</title>
+  <meta name="description" content="An interactive guide to Guardian obituaries — on this day in lives, a timeline of every life, and a quote roulette.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Lives of <em>Others</em><span class="brand-sub">Guardian obituaries</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/" aria-current="page">Front</a>
+        <a href="lives.html">Lives</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Today</p>
+        <h1 class="hero-date" id="hero-date">On this day</h1>
+        <p class="hero-sub">People in the Guardian obit archive whose lives meet today's date — born today, died today, or quietly tangled in something whose anniversary is today.</p>
+        <div class="lanes">
+          <div class="lane born">
+            <h2>Born today</h2>
+            <ul class="card-list" id="lane-born"></ul>
+          </div>
+          <div class="lane died">
+            <h2>Died today</h2>
+            <ul class="card-list" id="lane-died"></ul>
+          </div>
+          <div class="lane event">
+            <h2>Connected to today</h2>
+            <ul class="card-list" id="lane-event"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="wrap">
+        <p class="eyebrow" style="text-align:center;">From the obituaries</p>
+        <div id="quote-block" class="quote-block">
+          <p class="muted">Loading a quote…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip-section">
+      <div class="wrap">
+        <h2>Recently published</h2>
+        <div class="strip" id="strip" role="list" aria-label="Recent obituaries"></div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="cta-row">
+        <a class="cta" href="lives.html">
+          <h3>Every life on a timeline →</h3>
+          <p>One horizontal line per person, from birth to death. Filter by field; click any line to read.</p>
+        </a>
+        <a class="cta" href="about.html">
+          <h3>About this project →</h3>
+          <p>How it's put together — the build pipeline, the data, the choices. Plus a diary.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>An interactive guide to <a href="https://www.theguardian.com/tone/obituaries" target="_blank" rel="noopener">Guardian obituaries</a>. Obit text and images © Guardian News &amp; Media.</p>
+      <p><a href="about.html">About</a> · built by Chris Moran</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/front.js"></script>
+</body>
+</html>
