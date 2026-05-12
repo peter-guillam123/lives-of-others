@@ -1,0 +1,80 @@
+name: Build & deploy
+
+on:
+  schedule:
+    - cron: '0 4 * * *'        # 04:00 UTC nightly
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'              # skip when CI itself updates data
+      - '.github/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false    # nightly runs are not interruptible without losing work
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Fetch new obituaries
+        env:
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+        run: node scripts/fetch-obits.js
+
+      - name: Enrich with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/enrich-obits.js
+
+      - name: Shard for client
+        run: node scripts/shard.js
+
+      - name: Commit data updates
+        run: |
+          git config user.name  "lives-of-others-bot"
+          git config user.email "noreply@github.com"
+          git add -f data/enriched.json data/index.json data/obits data/on-this-day.json data/quotes.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "data: nightly refresh ($(date -u +%Y-%m-%d))"
+          # Rebase-retry in case a concurrent push has landed.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

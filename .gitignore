@@ -4,5 +4,11 @@ node_modules/
 .DS_Store
 *.log
 
-# Raw API responses (large, regenerable) — only enriched/sharded data is committed
+# Build artefacts. CI commits these with `git add -f` after a real build;
+# locally they hold the dev fixture (synthetic obits) and shouldn't slip into git.
 data/raw/
+data/enriched.json
+data/index.json
+data/on-this-day.json
+data/quotes.json
+data/obits/
