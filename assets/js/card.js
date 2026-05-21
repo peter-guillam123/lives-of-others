@@ -74,10 +74,10 @@ function renderSkeleton(idx) {
   m.className = 'modal';
   m.innerHTML = `
     <button class="modal-close" aria-label="Close">×</button>
+    <p class="eyebrow">${esc(idx.field ?? 'Obituary')}</p>
     <h2>${esc(idx.name)}</h2>
     <p class="dates">${formatDates(idx.born, idx.died)}</p>
-    <p class="field">${esc(idx.field ?? '')}</p>
-    <p class="muted">Loading…</p>
+    <p class="one-line">Loading…</p>
   `;
   m.querySelector('.modal-close').addEventListener('click', close);
   return m;
@@ -101,8 +101,19 @@ function renderModal(r) {
   const thumb = r.thumbnail
     ? `<img class="modal-thumb" src="${esc(r.thumbnail)}" alt="">`
     : '';
+  // Avoid the "Kameny, on Franklin Edward Kameny" repetition: if speaker is
+  // the subject, drop the cite line — the quote is clearly theirs in context.
+  const quoteSpeaker = r.best_quote?.speaker;
+  const speakerIsSubject = quoteSpeaker && r.name && quoteSpeaker.toLowerCase() === r.name.toLowerCase();
+  const quoteCite = quoteSpeaker
+    ? (speakerIsSubject
+        ? ''
+        : (quoteSpeaker === 'obit writer'
+            ? `<cite>— the obit writer, on ${esc(r.name)}</cite>`
+            : `<cite>— ${esc(quoteSpeaker)}, on ${esc(r.name)}</cite>`))
+    : '';
   const quote = r.best_quote && r.best_quote.text
-    ? `<blockquote>${esc(r.best_quote.text)}<cite>— ${esc(r.best_quote.speaker)}</cite></blockquote>`
+    ? `<blockquote>${esc(r.best_quote.text)}${quoteCite}</blockquote>`
     : '';
   const themes = (r.themes ?? []).length
     ? `<ul class="themes">${r.themes.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
@@ -110,14 +121,14 @@ function renderModal(r) {
   m.innerHTML = `
     <button class="modal-close" aria-label="Close">×</button>
     ${thumb}
+    <p class="eyebrow">${esc(r.field ?? 'Obituary')}</p>
     <h2>${esc(r.name)}</h2>
     <p class="dates">${formatDates(r.born, r.died)}</p>
-    <p class="field">${esc(r.field ?? '')}</p>
     <p class="one-line">${esc(r.one_line ?? '')}</p>
     ${quote}
     ${themes}
-    <div class="footer">
-      <span class="byline">${r.byline ? 'Obituary by ' + esc(r.byline) : ''}</span>
+    <div class="modal-footer">
+      <span class="byline">${r.byline ? 'Obit by ' + esc(r.byline) : ''}</span>
       <a class="read-link" href="${esc(r.url)}" target="_blank" rel="noopener">Read at the Guardian →</a>
     </div>
   `;

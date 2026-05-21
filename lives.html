@@ -7,16 +7,17 @@
   <meta name="description" content="A horizontal timeline of every life in the Guardian obit archive — one line per person, from birth to death.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body class="ribbon-page">
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/">Lives of <em>Others</em><span class="brand-sub">Guardian obituaries</span></a>
+      <a class="brand" href="index.html">Lives of <em>Others</em></a>
       <nav class="nav" aria-label="Primary">
-        <a href="/">Front</a>
+        <a href="index.html">Front</a>
         <a href="lives.html" aria-current="page">Lives</a>
         <a href="about.html">About</a>
       </nav>
@@ -24,11 +25,10 @@
   </header>
 
   <main id="main" class="wrap">
-    <header class="page-intro">
-      <p class="eyebrow">Every life on a timeline</p>
-      <h1>One line per person, from birth to death</h1>
-      <p class="dek">A century-and-a-half of lives stacked on a single horizontal axis. Click any line to read.</p>
-    </header>
+
+    <p class="eyebrow">Every life on a timeline</p>
+    <h1>One line per person,<br>from birth to death.</h1>
+    <p class="dek">A century-and-a-half of lives stacked on a single horizontal axis. Click any line to read the obit.</p>
 
     <div class="ribbon-controls">
       <label>Field
@@ -46,22 +46,20 @@
       <label>Search
         <input id="q" type="search" placeholder="name or word in summary" autocomplete="off">
       </label>
-      <span class="muted" id="count"></span>
+      <span class="count" id="count"></span>
     </div>
 
     <div class="ribbon-wrap" id="ribbon-wrap" tabindex="0" aria-label="Lifespan ribbon, horizontally scrollable">
-      <p class="muted" style="padding: 1rem;">Loading…</p>
+      <p class="empty" style="padding: 22px;">Loading…</p>
     </div>
 
-    <p class="muted" style="font-family: var(--sans); font-size: var(--t-xs); padding: 1rem 0;">
-      Dashed lines = either birth or death year is missing from the obit; we estimate the other.
-    </p>
+    <p class="eyebrow" style="margin: 28px 0 0; opacity: 0.55;">Dashed lines = one of the two dates is missing from the obit; we estimate the other.</p>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>An interactive guide to <a href="https://www.theguardian.com/tone/obituaries" target="_blank" rel="noopener">Guardian obituaries</a>.</p>
-      <p><a href="about.html">About</a> · built by Chris Moran</p>
+      <div>An interactive guide to <a href="https://www.theguardian.com/tone/obituaries" target="_blank" rel="noopener">Guardian obituaries</a></div>
+      <div class="small">Set in Helvetica · MMXXVI</div>
     </div>
   </footer>
 

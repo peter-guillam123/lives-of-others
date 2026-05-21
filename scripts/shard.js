@@ -6,6 +6,13 @@
 //   data/quotes.json    — pre-built list of usable quotes for the roulette
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 
+// Phrases that signal a "notable date" the model shouldn't have surfaced:
+// cause of death, personal milestones (birthday/funeral), medical detail.
+// Filtered out at shard time so existing enriched data is cleaned even
+// before a re-enrich. The prompt is also tightened so new obits don't
+// produce this in the first place.
+const EVENT_BLOCKLIST = /\b(cancer|tumour|tumor|leukaemia|leukemia|stroke|aneurysm|illness|disease|dementia|alzheimer|parkinson|terminal|hospice|chemo|diagnos|died|death|dying|passed away|passing|cause of death|suicid|funeral|memorial service|aged \d|'s birthday|'s funeral|'s memorial|'s death|'s birth)\b/i;
+
 const ENRICHED = 'data/enriched.json';
 const enriched = JSON.parse(await readFile(ENRICHED, 'utf8'));
 const records = Object.values(enriched);
@@ -75,13 +82,6 @@ function shardKey(r) {
   const y = (r.published ?? '').slice(0, 4);
   return y || 'unknown';
 }
-
-// Phrases that signal a "notable date" the model shouldn't have surfaced:
-// cause of death, personal milestones (birthday/funeral), medical detail.
-// Filtered out at shard time so existing enriched data is cleaned even
-// before a re-enrich. The prompt is also tightened so new obits don't
-// produce this in the first place.
-const EVENT_BLOCKLIST = /\b(cancer|tumour|tumor|leukaemia|leukemia|stroke|aneurysm|illness|disease|dementia|alzheimer|parkinson|terminal|hospice|chemo|diagnos|died|death|dying|passed away|passing|cause of death|suicid|funeral|memorial service|aged \d|'s birthday|'s funeral|'s memorial|'s death|'s birth)\b/i;
 
 function isUsableEvent(d) {
   if (!d || !d.event) return false;
