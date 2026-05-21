@@ -13,6 +13,7 @@ const SHOW_FIELDS = 'body,trailText,thumbnail,headline,byline,main,wordcount';
 const PAGE_SIZE = 50;
 const POLITE_MS = 120;
 const INCREMENTAL_BUFFER_DAYS = 30;
+const MIN_WORDCOUNT = 500;        // exclude "Other lives" reader pieces and short letters
 
 const args = parseArgs(process.argv);
 const apiKey = process.env.GUARDIAN_API_KEY;
@@ -62,12 +63,19 @@ while (page <= totalPages) {
   }
   const { response } = await res.json();
   totalPages = response.pages;
-  const newThisPage = response.results.filter((r) => !known.has(r.id));
-  for (const r of newThisPage) {
+  const onPage = response.results;
+  const newThisPage = onPage.filter((r) => !known.has(r.id));
+  const passing = newThisPage.filter(isFullObit);
+  for (const r of passing) {
     fresh.push(stripRaw(r));
     known.add(r.id);
   }
-  console.log(`  page ${page}/${totalPages}: ${response.results.length} results, ${newThisPage.length} new`);
+  // Skipped IDs also count as known so we don't re-evaluate them on every run.
+  for (const r of newThisPage) {
+    if (!passing.includes(r)) known.add(r.id);
+  }
+  const skipped = newThisPage.length - passing.length;
+  console.log(`  page ${page}/${totalPages}: ${onPage.length} results, ${passing.length} new (${skipped} skipped as short/Other-lives)`);
 
   if (limit && fresh.length >= limit) {
     fresh.length = limit;
@@ -101,4 +109,13 @@ function stripRaw(r) {
 
 function isoDate(d) {
   return d.toISOString().slice(0, 10);
+}
+
+// Full-length obituary vs "Other lives" reader contribution or letter.
+// Belt-and-braces: title prefix AND wordcount floor.
+function isFullObit(r) {
+  if ((r.webTitle ?? '').startsWith('Other lives:')) return false;
+  const wc = Number(r.fields?.wordcount ?? 0);
+  if (wc && wc < MIN_WORDCOUNT) return false;
+  return true;
 }
