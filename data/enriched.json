@@ -338,76 +338,6 @@
     "_enriched_at": "2026-05-21T13:28:59.097Z",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "education/2026/may/15/andy-alaszewski-obituary": {
-    "id": "education/2026/may/15/andy-alaszewski-obituary",
-    "url": "https://www.theguardian.com/education/2026/may/15/andy-alaszewski-obituary",
-    "headline": "Andy Alaszewski obituary",
-    "published": "2026-05-15",
-    "byline": "Patrick Brown",
-    "thumbnail": "https://media.guim.co.uk/362cc852afa7658484a2edd732ab48be20c87284/0_52_828_662/500.jpg",
-    "wordcount": 506,
-    "section": "education",
-    "name": "Andy Alaszewski",
-    "born": "1950",
-    "died": "2026",
-    "field": "social scientist",
-    "one_line": "Founded influential health risk journal, pioneered social science study of risk governance.",
-    "themes": [
-      "health policy",
-      "risk theory",
-      "disability studies",
-      "pandemic governance",
-      "social justice"
-    ],
-    "best_quote": null,
-    "mentions": [
-      "Jill Manthorpe",
-      "Tom Horlick-Jones",
-      "Gilbert Lewis",
-      "Bie Nio Ong",
-      "Helen Walker"
-    ],
-    "notable_dates": [
-      {
-        "md": "01-01",
-        "event": "Founded Health, Risk & Society journal with Jill Manthorpe"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:01.185Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
-  "stage/2026/may/14/andrie-reid-obituary": {
-    "id": "stage/2026/may/14/andrie-reid-obituary",
-    "url": "https://www.theguardian.com/stage/2026/may/14/andrie-reid-obituary",
-    "headline": "Andrie Reid obituary",
-    "published": "2026-05-14",
-    "byline": "Jon Taylor",
-    "thumbnail": "https://media.guim.co.uk/80f3914e402ec004a904f71047ff8425eec2f330/0_319_3663_2930/500.jpg",
-    "wordcount": 545,
-    "section": "stage",
-    "name": "Andrie Reid",
-    "born": null,
-    "died": "2026",
-    "field": "dancer and actor",
-    "one_line": "Pioneering black dancer who appeared on 1980s British TV and hosted at Ronnie Scott's.",
-    "themes": [
-      "1980s British television",
-      "black British dance",
-      "jazz culture"
-    ],
-    "best_quote": null,
-    "mentions": [
-      "Kenny Everett",
-      "Bruce Forsyth",
-      "Lester Reid",
-      "Reva Stewart",
-      "Dougie Squires",
-      "Edward Kamau Brathwaite"
-    ],
-    "notable_dates": [],
-    "_enriched_at": "2026-05-21T13:29:01.369Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
   "tv-and-radio/2026/may/15/alan-rothwell-obituary": {
     "id": "tv-and-radio/2026/may/15/alan-rothwell-obituary",
     "url": "https://www.theguardian.com/tv-and-radio/2026/may/15/alan-rothwell-obituary",
@@ -556,50 +486,6 @@
     "_enriched_at": "2026-05-21T13:29:02.356Z",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "world/2026/may/13/ghayasuddin-siddiqui-obituary": {
-    "id": "world/2026/may/13/ghayasuddin-siddiqui-obituary",
-    "url": "https://www.theguardian.com/world/2026/may/13/ghayasuddin-siddiqui-obituary",
-    "headline": "Ghayasuddin Siddiqui obituary",
-    "published": "2026-05-13",
-    "byline": "Asim Siddiqui",
-    "thumbnail": "https://media.guim.co.uk/a90703cfa76246c98817b41e5f119c0a75f23aab/58_122_1634_1307/500.jpg",
-    "wordcount": 531,
-    "section": "world",
-    "name": "Ghayasuddin Siddiqui",
-    "born": "1939",
-    "died": "2026",
-    "field": "Muslim activist and community leader",
-    "one_line": "Co-founded Muslim Institute and Muslim Parliament, advanced British Muslim rights.",
-    "themes": [
-      "British Muslim activism",
-      "civil rights advocacy",
-      "interfaith dialogue",
-      "social reform"
-    ],
-    "best_quote": {
-      "speaker": "Asim Siddiqui",
-      "text": "What distinguished Ghayasuddin from many contemporaries was the willingness to turn that same critical gaze inward."
-    },
-    "mentions": [
-      "Malcolm X",
-      "Kalim Siddiqui",
-      "Muhammed Saeeduddin",
-      "Batool Fatima",
-      "Talat Anis"
-    ],
-    "notable_dates": [
-      {
-        "md": "12-01",
-        "event": "Malcolm X visit to Sheffield University arranged by Siddiqui"
-      },
-      {
-        "md": "01-01",
-        "event": "Co-founded the Muslim Institute"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:04.113Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
   "fashion/2026/may/13/doris-fisher-obituary": {
     "id": "fashion/2026/may/13/doris-fisher-obituary",
     "url": "https://www.theguardian.com/fashion/2026/may/13/doris-fisher-obituary",
@@ -691,41 +577,6 @@
       }
     ],
     "_enriched_at": "2026-05-21T13:29:04.840Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
-  "books/2026/may/12/lloyd-jones-obituary": {
-    "id": "books/2026/may/12/lloyd-jones-obituary",
-    "url": "https://www.theguardian.com/books/2026/may/12/lloyd-jones-obituary",
-    "headline": "Lloyd Jones obituary",
-    "published": "2026-05-12",
-    "byline": "Kath Clyde",
-    "thumbnail": "https://media.guim.co.uk/f6615d350b636a33a9777ab96a91eaaf204fb81b/0_284_3024_2419/500.jpg",
-    "wordcount": 517,
-    "section": "books",
-    "name": "Lloyd Jones",
-    "born": "1952",
-    "died": "2026-05-12",
-    "field": "novelist and poet",
-    "one_line": "Welsh-English novelist who transformed homelessness and recovery into acclaimed fiction",
-    "themes": "Welsh literature, recovery narratives, rural Wales, journalism, contemporary fiction",
-    "best_quote": {
-      "text": "Alcoholism had nearly killed him, and his narrow escape from its consequences instilled in Lloyd an appreciation of the many joys of his life.",
-      "speaker": "obit writer"
-    },
-    "mentions": [
-      "George Jones",
-      "Mary Jones",
-      "Evelyn Stevens",
-      "Ed Jones",
-      "Ella Jones"
-    ],
-    "notable_dates": [
-      {
-        "md": "05-12",
-        "event": "Died, aged 74"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:04.996Z",
     "_model": "claude-haiku-4-5-20251001"
   },
   "music/2026/may/12/beverley-martyn-obituary": {
@@ -1737,45 +1588,6 @@
     "_enriched_at": "2026-05-21T13:29:20.437Z",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "education/2026/apr/29/ruth-lesser-obituary": {
-    "id": "education/2026/apr/29/ruth-lesser-obituary",
-    "url": "https://www.theguardian.com/education/2026/apr/29/ruth-lesser-obituary",
-    "headline": "Ruth Lesser obituary",
-    "published": "2026-04-29",
-    "byline": "Piers Lesser",
-    "thumbnail": "https://media.guim.co.uk/83d7907406d58d96ceafbbc030233171336623ca/177_182_678_543/500.jpg",
-    "wordcount": 501,
-    "section": "education",
-    "name": "Ruth Lesser",
-    "born": "1930",
-    "died": "2026-04-29",
-    "field": "speech and language pathologist",
-    "one_line": "Speech therapist who built Newcastle's department into an international centre for aphasia research.",
-    "themes": [
-      "aphasia research",
-      "speech therapy",
-      "empirical science",
-      "academic leadership"
-    ],
-    "best_quote": {
-      "speaker": "Ruth Lesser",
-      "text": "She decided that she should help him to achieve as good a degree as possible so that he could support their future family in those days of pay inequality."
-    },
-    "mentions": [
-      "Lesley Milroy",
-      "David Lesser",
-      "Annie Hird",
-      "Joseph Hird"
-    ],
-    "notable_dates": [
-      {
-        "md": "04-25",
-        "event": "Founded the British Aphasiology Society"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:21.069Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
   "music/2026/apr/29/nedra-talley-ross-obituary": {
     "id": "music/2026/apr/29/nedra-talley-ross-obituary",
     "url": "https://www.theguardian.com/music/2026/apr/29/nedra-talley-ross-obituary",
@@ -2003,90 +1815,6 @@
       }
     ],
     "_enriched_at": "2026-05-21T13:29:24.411Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
-  "music/2026/apr/26/bill-leader-obituary": {
-    "id": "music/2026/apr/26/bill-leader-obituary",
-    "url": "https://www.theguardian.com/music/2026/apr/26/bill-leader-obituary",
-    "headline": "Bill Leader obituary",
-    "published": "2026-04-26",
-    "byline": "Trevor Hyett",
-    "thumbnail": "https://media.guim.co.uk/9824ccc0a454a414f44f38e43a08dde927497189/117_0_1066_853/500.jpg",
-    "wordcount": 577,
-    "section": "music",
-    "name": "Bill Leader",
-    "born": "1929",
-    "died": "2026-04-26",
-    "field": "folk music record producer",
-    "one_line": "Producer who shaped British folk revival albums by Ewan MacColl, Gerry Rafferty and Aly Bain.",
-    "themes": [
-      "British folk revival",
-      "independent record labels",
-      "recording technique",
-      "Irish diaspora music"
-    ],
-    "best_quote": null,
-    "mentions": [
-      "Billy Connolly",
-      "Gerry Rafferty",
-      "Mike Harding",
-      "Christy Moore",
-      "Luke Kelly",
-      "Aly Bain",
-      "Dick Gaughan",
-      "Barbara Dickson",
-      "Ewan MacColl",
-      "Bert Jansch"
-    ],
-    "notable_dates": [
-      {
-        "md": "01-01",
-        "event": "Joined Topic Records as production manager"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:24.664Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
-  "uk-news/2026/apr/27/amrit-lal-obituary": {
-    "id": "uk-news/2026/apr/27/amrit-lal-obituary",
-    "url": "https://www.theguardian.com/uk-news/2026/apr/27/amrit-lal-obituary",
-    "headline": "Amrit Lal obituary",
-    "published": "2026-04-27",
-    "byline": "Vineet Lal",
-    "thumbnail": "https://media.guim.co.uk/bfe96fa2e1c1cd85ed72ee31d8a018aa760a210b/0_767_10192_8153/500.jpg",
-    "wordcount": 524,
-    "section": "uk-news",
-    "name": "Amrit Lal",
-    "born": "1932",
-    "died": "2026-04-27",
-    "field": "Hindu temple founder and community leader",
-    "one_line": "Key figure in creating Edinburgh's Hindu Mandir, a spiritual centre for the city",
-    "themes": [
-      "Indian immigration to Britain",
-      "Hindu community building",
-      "post-partition diaspora",
-      "interfaith spirituality"
-    ],
-    "best_quote": null,
-    "mentions": [
-      "Saroj Lal",
-      "Vineet Lal",
-      "Kavita Lal",
-      "Lachman Dass Tangri",
-      "Parvati Devi Dhand",
-      "Jagiri Mal Dhand"
-    ],
-    "notable_dates": [
-      {
-        "md": "08-15",
-        "event": "Indian Partition"
-      },
-      {
-        "md": "11-01",
-        "event": "Arrived in Britain for apprenticeship"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:25.310Z",
     "_model": "claude-haiku-4-5-20251001"
   },
   "music/2026/apr/26/michael-tilson-thomas-obituary": {
@@ -2318,51 +2046,6 @@
       }
     ],
     "_enriched_at": "2026-05-21T13:29:28.659Z",
-    "_model": "claude-haiku-4-5-20251001"
-  },
-  "science/2026/apr/21/geoff-yeadon-obituary": {
-    "id": "science/2026/apr/21/geoff-yeadon-obituary",
-    "url": "https://www.theguardian.com/science/2026/apr/21/geoff-yeadon-obituary",
-    "headline": "Geoff Yeadon obituary",
-    "published": "2026-04-21",
-    "byline": "David Rose",
-    "thumbnail": "https://media.guim.co.uk/39aa4f7318c4436f9800296464ddb2d91c2172fe/0_806_3024_2419/500.jpg",
-    "wordcount": 532,
-    "section": "science",
-    "name": "Geoff Yeadon",
-    "born": "1950",
-    "died": "2026",
-    "field": "cave diver",
-    "one_line": "British cave diver who set world records for underwater exploration in Yorkshire caves.",
-    "themes": [
-      "cave exploration",
-      "British mountaineering",
-      "1970s adventure",
-      "underwater diving"
-    ],
-    "best_quote": {
-      "text": "Even in his 70s he seemed to be indestructible, and twice a week continued to look for new caves as part of an informal group he dubbed 'the chums'.",
-      "speaker": "obit writer"
-    },
-    "mentions": [
-      "Oliver Statham",
-      "Geoff Crossley",
-      "David Heap",
-      "Deborah Whinray",
-      "Thomas Yeadon",
-      "Gladys Yeadon"
-    ],
-    "notable_dates": [
-      {
-        "md": "1979",
-        "event": "Completed record-breaking 1.8km underwater cave dive in North Yorkshire"
-      },
-      {
-        "md": "1991",
-        "event": "Completed 3km traverse between King Pot and Keld Head"
-      }
-    ],
-    "_enriched_at": "2026-05-21T13:29:30.594Z",
     "_model": "claude-haiku-4-5-20251001"
   },
   "stage/2026/apr/22/alexander-morton-obituary": {
