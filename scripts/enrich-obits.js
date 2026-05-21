@@ -6,12 +6,15 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import Anthropic from '@anthropic-ai/sdk';
 import { parseArgs } from './lib/args.js';
-import { mapLimit } from './lib/concurrency.js';
+import { mapLimit, sleep } from './lib/concurrency.js';
 
 const RAW = 'data/raw/obits.json';
 const OUT = 'data/enriched.json';
 const MODEL = 'claude-haiku-4-5-20251001';
-const CONCURRENCY = 5;
+const CONCURRENCY = 2;
+// Rough proactive throttle so we sit under Tier 1's 20M-prompt-bytes-per-hour
+// cap even when the SDK's retries aren't kicking in. ~5KB/sec average target.
+const PER_REQUEST_DELAY_MS = 400;
 
 const args = parseArgs(process.argv);
 const limit = args.limit ? Number(args.limit) : null;
@@ -22,7 +25,9 @@ if (!process.env.ANTHROPIC_API_KEY) {
   process.exit(1);
 }
 
-const client = new Anthropic();
+// SDK does its own exponential backoff on 429s; we bump retries way up so a
+// single transient cap-bump doesn't drop the obit on the floor.
+const client = new Anthropic({ maxRetries: 10 });
 
 const SYSTEM_PROMPT = `You extract structured facts from Guardian obituaries.
 
@@ -125,6 +130,7 @@ let cacheWriteTokens = 0;
 
 await mapLimit(candidates, CONCURRENCY, async (obit) => {
   try {
+    await sleep(PER_REQUEST_DELAY_MS);
     const result = await enrichOne(obit);
     enriched[obit.id] = {
       id: obit.id,
