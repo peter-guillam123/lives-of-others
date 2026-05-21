@@ -9,6 +9,11 @@ on:
       - 'data/**'              # skip when CI itself updates data
       - '.github/**'
   workflow_dispatch:
+    inputs:
+      audit:
+        description: 'Audit: full 15y re-pass, evict invalid IDs (Other-lives etc) from enriched.json'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,7 +40,7 @@ jobs:
       - name: Fetch new obituaries
         env:
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
-        run: node scripts/fetch-obits.js
+        run: node scripts/fetch-obits.js ${{ inputs.audit && '--audit' || '' }}
 
       - name: Enrich with Claude
         env:
