@@ -76,6 +76,20 @@ function shardKey(r) {
   return y || 'unknown';
 }
 
+// Phrases that signal a "notable date" the model shouldn't have surfaced:
+// cause of death, personal milestones (birthday/funeral), medical detail.
+// Filtered out at shard time so existing enriched data is cleaned even
+// before a re-enrich. The prompt is also tightened so new obits don't
+// produce this in the first place.
+const EVENT_BLOCKLIST = /\b(cancer|tumour|tumor|leukaemia|leukemia|stroke|aneurysm|illness|disease|dementia|alzheimer|parkinson|terminal|hospice|chemo|diagnos|died|death|dying|passed away|passing|cause of death|suicid|funeral|memorial service|aged \d|'s birthday|'s funeral|'s memorial|'s death|'s birth)\b/i;
+
+function isUsableEvent(d) {
+  if (!d || !d.event) return false;
+  if (!/^\d{2}-\d{2}$/.test(d.md ?? '')) return false;
+  if (EVENT_BLOCKLIST.test(d.event)) return false;
+  return true;
+}
+
 // Three reasons a person turns up on a given date: born, died, or an event from
 // their life happened today. We pre-compute all three into one lookup.
 function bucketsForOnThisDay(r) {
@@ -85,7 +99,7 @@ function bucketsForOnThisDay(r) {
   if (bornMd) out.push({ md: bornMd, reason: 'born' });
   if (diedMd) out.push({ md: diedMd, reason: 'died' });
   for (const d of r.notable_dates ?? []) {
-    if (/^\d{2}-\d{2}$/.test(d.md)) {
+    if (isUsableEvent(d)) {
       out.push({ md: d.md, reason: 'event', event: d.event });
     }
   }

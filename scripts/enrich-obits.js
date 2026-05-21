@@ -73,7 +73,18 @@ NOTABLE_DATES
   Berlin Wall (11-09). Only include events where THIS PERSON was meaningfully
   involved. Max 3. If none qualify, return [].
 - Do not invent. If the obit does not state an event happened on a specific
-  date, do not include it.`;
+  date, do not include it.
+
+  EXCLUDE — these are NOT notable dates:
+  - The subject's own birth or death (handled separately).
+  - Cause of death, illness, diagnosis, hospital admission, funeral,
+    memorial service, or any medical detail.
+  - The subject's birthday, wedding, retirement, or other private milestones.
+  - Events whose only significance is that they happened to the subject;
+    we want events whose anniversary lands publicly today.
+
+  Bar: would a Guardian reader who has never heard of this person nod at
+  the anniversary as something they recognise? If not, leave it out.`;
 
 const TOOL = {
   name: 'record_obituary',
