@@ -5,6 +5,7 @@
 //   data/on-this-day.json — pre-built lookup keyed by MM-DD
 //   data/quotes.json    — pre-built list of usable quotes for the roulette
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
+import { canonicalise } from './lib/canonicalise.js';
 
 // Phrases that signal a "notable date" the model shouldn't have surfaced:
 // cause of death, personal milestones (birthday/funeral), medical detail.
@@ -25,9 +26,19 @@ const byYear = new Map();
 const index = [];
 const onThisDay = {};
 const quotes = [];
+const roleCount = new Map();
+const domainCount = new Map();
 
 for (const r of records) {
   const yearKey = shardKey(r);
+  // Derive taxonomy from the existing `field` string; mutate the record so
+  // both the per-year shard and the index see the same canonical roles.
+  const { roles, domains } = canonicalise(r.field);
+  r.roles = roles;
+  r.domains = domains;
+  for (const role of roles) roleCount.set(role, (roleCount.get(role) ?? 0) + 1);
+  for (const d of domains) domainCount.set(d, (domainCount.get(d) ?? 0) + 1);
+
   if (!byYear.has(yearKey)) byYear.set(yearKey, []);
   byYear.get(yearKey).push(r);
 
@@ -37,6 +48,8 @@ for (const r of records) {
     born: r.born,
     died: r.died,
     field: r.field,
+    roles,
+    domains,
     one_line: r.one_line,
     shard: yearKey,
     image: r.thumbnail,
@@ -76,7 +89,47 @@ await writeFile('data/index.json', JSON.stringify({
 await writeFile('data/on-this-day.json', JSON.stringify(onThisDay));
 await writeFile('data/quotes.json', JSON.stringify(quotes));
 
-console.log(`Wrote ${byYear.size} shards, ${index.length} index entries, ${Object.keys(onThisDay).length} MM-DD buckets, ${quotes.length} quotes.`);
+// Taxonomy summary — used by lives.html to render the domains + roles
+// explorer. Two top-level fields:
+//   domains: { domain → { count, roles: [{role, count}] } }
+//   intersections: { "domain × domain" → [list of obit ids] }
+const intersections = {};
+const domainsAgg = {};
+for (const [d, n] of domainCount) {
+  domainsAgg[d] = { count: n, roles: [] };
+}
+const rolesByDomain = new Map();
+for (const r of index) {
+  for (const role of r.roles ?? []) {
+    if (!rolesByDomain.has(role)) rolesByDomain.set(role, new Map());
+  }
+}
+// Per-role counts within each domain
+for (const r of index) {
+  for (const role of r.roles ?? []) {
+    for (const dom of r.domains ?? []) {
+      const dEntry = domainsAgg[dom];
+      if (!dEntry) continue;
+      const slot = dEntry.roles.find((x) => x.role === role);
+      if (slot) slot.count++;
+      else dEntry.roles.push({ role, count: 1 });
+    }
+  }
+  if ((r.domains ?? []).length > 1) {
+    const key = r.domains.slice().sort().join(' × ');
+    (intersections[key] ??= []).push(r.id);
+  }
+}
+for (const d of Object.values(domainsAgg)) {
+  d.roles.sort((a, b) => b.count - a.count);
+}
+await writeFile('data/taxonomy.json', JSON.stringify({
+  generated_at: new Date().toISOString(),
+  domains: domainsAgg,
+  intersections,
+}));
+
+console.log(`Wrote ${byYear.size} shards, ${index.length} index entries, ${Object.keys(onThisDay).length} MM-DD buckets, ${quotes.length} quotes, ${Object.keys(domainsAgg).length} domains, ${Object.keys(intersections).length} intersections.`);
 
 function shardKey(r) {
   const y = (r.published ?? '').slice(0, 4);

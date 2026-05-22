@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name  "lives-of-others-bot"
           git config user.email "noreply@github.com"
-          git add -f data/enriched.json data/index.json data/obits data/on-this-day.json data/quotes.json
+          git add -f data/enriched.json data/index.json data/obits data/on-this-day.json data/quotes.json data/taxonomy.json
           if git diff --cached --quiet; then
             echo "No data changes."
             exit 0
