@@ -372252,5 +372252,90 @@
     ],
     "_enriched_at": "2026-05-30T06:51:32.092Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/may/31/ian-russell-obituary": {
+    "id": "music/2026/may/31/ian-russell-obituary",
+    "url": "https://www.theguardian.com/music/2026/may/31/ian-russell-obituary",
+    "headline": "Ian Russell obituary",
+    "published": "2026-05-31",
+    "byline": "Derek Schofield",
+    "thumbnail": "https://media.guim.co.uk/a823fd7a158a76951e93256bc5d8ba82eb42bc48/182_0_4800_3840/500.jpg",
+    "wordcount": 935,
+    "section": "music",
+    "name": "Ian Russell",
+    "born": "1947-02-17",
+    "died": "2026-05-16",
+    "field": "folklorist and ethnomusicologist",
+    "one_line": "Authority on south Yorkshire and Derbyshire village carol traditions and grassroots folk singing.",
+    "themes": [
+      "British folk revival",
+      "oral tradition documentation",
+      "ethnomusicology",
+      "regional heritage preservation"
+    ],
+    "best_quote": null,
+    "mentions": [
+      "Joan Russell",
+      "William Russell",
+      "Norma Russell",
+      "Joseph Russell",
+      "Tomas Russell",
+      "Cecil Sharp"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-01",
+        "event": "Festival of Village Carols established in Grenoside, Sheffield (1994)"
+      },
+      {
+        "md": "02-17",
+        "event": "Ian Russell born (1947)"
+      }
+    ],
+    "_enriched_at": "2026-06-01T09:31:25.852Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "science/2026/may/24/anna-ritchie-obituary": {
+    "id": "science/2026/may/24/anna-ritchie-obituary",
+    "url": "https://www.theguardian.com/science/2026/may/24/anna-ritchie-obituary",
+    "headline": "Anna Ritchie obituary",
+    "published": "2026-05-24",
+    "byline": "Alexandra Shepherd",
+    "thumbnail": "https://media.guim.co.uk/b7be43ea2689fe467cf1b4b7d80f791a07f7e6d3/161_140_1678_1342/500.jpg",
+    "wordcount": 931,
+    "section": "science",
+    "name": "Anna Ritchie",
+    "born": "1943-09-28",
+    "died": "2026-05-08",
+    "field": "archaeologist and author",
+    "one_line": "Excavated Pictish and Viking sites revealing peaceful Orkney coexistence theory.",
+    "themes": [
+      "Scottish archaeology",
+      "Orkney Pictish sites",
+      "Viking settlement",
+      "Neolithic excavation",
+      "public archaeology"
+    ],
+    "best_quote": {
+      "text": "Anna in particular gaining his regard (he dedicated two of his poems to her)",
+      "speaker": "obit writer"
+    },
+    "mentions": [
+      "Graham Ritchie",
+      "David Clarke",
+      "Stuart Piggott",
+      "Ian Shepherd",
+      "Charles Dunn",
+      "Peggy Bachelier",
+      "George Bachelier"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-20",
+        "event": "Animal, Vegetable, Mineral? television appearance discussing the Viking age"
+      }
+    ],
+    "_enriched_at": "2026-06-01T09:31:26.192Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
