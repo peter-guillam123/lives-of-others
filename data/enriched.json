@@ -372337,5 +372337,100 @@
     ],
     "_enriched_at": "2026-06-01T09:31:26.192Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/01/toto-la-momposina-obituary": {
+    "id": "music/2026/jun/01/toto-la-momposina-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/01/toto-la-momposina-obituary",
+    "headline": "Totó la Momposina obituary",
+    "published": "2026-06-01",
+    "byline": "Robin Denselow",
+    "thumbnail": "https://media.guim.co.uk/a2b0facb6356271ec6908f08b871bb14b233dc51/107_0_3560_2848/500.jpg",
+    "wordcount": 946,
+    "section": "music",
+    "name": "Totó la Momposina",
+    "born": "1940-08-01",
+    "died": "2026-05-17",
+    "field": "singer and dancer",
+    "one_line": "Colombian folk revival artist who became the queen of cumbia music worldwide.",
+    "themes": [
+      "world music",
+      "Colombian folk revival",
+      "cumbia",
+      "cultural preservation",
+      "African-Indigenous fusion"
+    ],
+    "best_quote": {
+      "speaker": "Totó la Momposina",
+      "text": "We have a wonderful country. But a nation without music would be a people without identity."
+    },
+    "mentions": [
+      "Gabriel García Márquez",
+      "Peter Gabriel",
+      "Phil Ramone",
+      "Queen Silvia of Sweden",
+      "Daniel Bazanta",
+      "Livia Vides",
+      "Hernando Oyaga",
+      "Marco Vinicio",
+      "Angélica María",
+      "Eurídice"
+    ],
+    "notable_dates": [
+      {
+        "md": "06-02",
+        "event": "Released breakthrough album La Candela Viva on Real World label in 1993"
+      },
+      {
+        "md": "06-06",
+        "event": "Performed at Radio City Music Hall in New York in 1974"
+      }
+    ],
+    "_enriched_at": "2026-06-02T08:41:46.726Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "media/2026/jun/01/caroline-marland-obituary": {
+    "id": "media/2026/jun/01/caroline-marland-obituary",
+    "url": "https://www.theguardian.com/media/2026/jun/01/caroline-marland-obituary",
+    "headline": "Caroline Marland obituary",
+    "published": "2026-06-01",
+    "byline": "Stephen Bates",
+    "thumbnail": "https://media.guim.co.uk/f0337abb6625e1c370e27751d6c8c122213a4b50/0_7_6008_4807/500.jpg",
+    "wordcount": 1050,
+    "section": "media",
+    "name": "Caroline Ann Marland",
+    "born": "1946-04-14",
+    "died": "2026-05-27",
+    "field": "media group executive",
+    "one_line": "First woman managing director of a national newspaper; saved the Guardian financially in the 1980s",
+    "themes": [
+      "1980s newspaper advertising",
+      "gender and workplace",
+      "British media history",
+      "classified job markets"
+    ],
+    "best_quote": {
+      "text": "I thought they must all be liberated there",
+      "speaker": "Caroline Marland"
+    },
+    "mentions": [
+      "Peggy Ramsden",
+      "Desmond Rushton",
+      "Roger Moore",
+      "Joseph Kagan",
+      "Alan Rusbridger",
+      "Peter Preston",
+      "Jim Markwick",
+      "Carolyn McCall",
+      "Sly Bailey",
+      "Paul Marland"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-14",
+        "event": "Caroline Marland's birth (1946)"
+      }
+    ],
+    "_enriched_at": "2026-06-02T08:41:47.228Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
