@@ -372432,5 +372432,200 @@
     ],
     "_enriched_at": "2026-06-02T08:41:47.228Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/03/valie-export-obituary": {
+    "id": "artanddesign/2026/jun/03/valie-export-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/03/valie-export-obituary",
+    "headline": "Valie Export obituary",
+    "published": "2026-06-03",
+    "byline": "Hettie Judah",
+    "thumbnail": "https://media.guim.co.uk/a9c8d5c92ac57236788b0c9abd56c9f5874e6af1/863_0_4649_3720/500.jpg",
+    "wordcount": 875,
+    "section": "artanddesign",
+    "name": "Valie Export",
+    "born": "1940-05-17",
+    "died": "2026-05-14",
+    "field": "performance and feminist artist",
+    "one_line": "Pioneering feminist artist who used her body to challenge representations of women",
+    "themes": [
+      "feminist avant-garde",
+      "expanded cinema",
+      "Viennese Actionism",
+      "1960s-70s performance art",
+      "body as protest"
+    ],
+    "best_quote": {
+      "text": "Women must make use of all media as a means of social struggle and as a means for social progress in order to liberate culture from masculine values",
+      "speaker": "Valie Export"
+    },
+    "mentions": [
+      "Peter Weibel",
+      "Peter Hassmann",
+      "Maria Lassnig",
+      "Gabriele Schor",
+      "Robert Stockinger",
+      "Ernst Alois Höllinger",
+      "Perdita"
+    ],
+    "notable_dates": [
+      {
+        "md": "05-17",
+        "event": "Birth of Valie Export"
+      },
+      {
+        "md": "05-14",
+        "event": "Death of Valie Export"
+      }
+    ],
+    "_enriched_at": "2026-06-05T08:11:58.739Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "uk-news/2026/jun/04/sir-alex-younger-obituary": {
+    "id": "uk-news/2026/jun/04/sir-alex-younger-obituary",
+    "url": "https://www.theguardian.com/uk-news/2026/jun/04/sir-alex-younger-obituary",
+    "headline": "Sir Alex Younger obituary",
+    "published": "2026-06-04",
+    "byline": "Stephen Bates",
+    "thumbnail": "https://media.guim.co.uk/f812ce150060a4aee780992defc8ae0a08868866/889_103_3695_2956/500.jpg",
+    "wordcount": 1124,
+    "section": "uk-news",
+    "name": "Sir Alex Younger",
+    "born": "1963-07-04",
+    "died": "2026-06-02",
+    "field": "MI6 chief",
+    "one_line": "Head of MI6 who brought openness and wit to British espionage leadership.",
+    "themes": [
+      "cold-war legacy",
+      "counterterrorism",
+      "Russian threat",
+      "intelligence modernisation"
+    ],
+    "best_quote": {
+      "speaker": "Sir Alex Younger",
+      "text": "The threat of 88 mullahs on Zoom is one that is difficult to comprehend."
+    },
+    "mentions": [
+      "George Younger",
+      "Mansfield Cumming",
+      "Daniel Craig",
+      "George Smiley",
+      "John le Carré",
+      "Mohammed bin Salman",
+      "Hamid Karzai",
+      "Umar Farouk Abdulmutallab",
+      "John Sawers",
+      "Sergei Skripal",
+      "Yulia Skripal",
+      "Sarah Hopkins"
+    ],
+    "notable_dates": [
+      {
+        "md": "12-25",
+        "event": "Umar Farouk Abdulmutallab's attempted bombing of Northwest Airlines flight (2009)"
+      },
+      {
+        "md": "02-14",
+        "event": "Iran war begins, during which Younger gave his final BBC interview"
+      }
+    ],
+    "_enriched_at": "2026-06-05T08:11:59.021Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "film/2026/jun/03/marcia-lucas-obituary": {
+    "id": "film/2026/jun/03/marcia-lucas-obituary",
+    "url": "https://www.theguardian.com/film/2026/jun/03/marcia-lucas-obituary",
+    "headline": "Marcia Lucas obituary",
+    "published": "2026-06-03",
+    "byline": "Ryan Gilbey",
+    "thumbnail": "https://media.guim.co.uk/8d190f4c6f35fb286c0b18aa504e17d7a308d22f/734_346_1101_880/500.jpg",
+    "wordcount": 1331,
+    "section": "film",
+    "name": "Marcia Lou Lucas",
+    "born": "1945-10-04",
+    "died": "2026-05-27",
+    "field": "film editor",
+    "one_line": "Oscar-winning editor who shaped Star Wars, Taxi Driver, and American cinema's blockbuster era.",
+    "themes": [
+      "blockbuster cinema",
+      "1970s New Hollywood",
+      "film editing craft",
+      "George Lucas collaborator"
+    ],
+    "best_quote": {
+      "speaker": "Marcia Lucas",
+      "text": "I love editing and I'm real gifted at it. I have an innate ability to take good material and make it better, or take bad material and make it fair."
+    },
+    "mentions": [
+      "George Lucas",
+      "Richard Chew",
+      "Paul Hirsch",
+      "Martin Scorsese",
+      "Harrison Ford",
+      "Gloria Katz",
+      "Brian De Palma",
+      "Verna Fields",
+      "Francis Ford Coppola",
+      "Haskell Wexler",
+      "Robert De Niro",
+      "Ellen Burstyn",
+      "Tom Rodrigues"
+    ],
+    "notable_dates": [
+      {
+        "md": "02-28",
+        "event": "Star Wars rough cut screened to studio executives at George Lucas's home in northern California"
+      }
+    ],
+    "_enriched_at": "2026-06-05T08:12:02.660Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "books/2026/jun/03/maureen-duffy-obituary": {
+    "id": "books/2026/jun/03/maureen-duffy-obituary",
+    "url": "https://www.theguardian.com/books/2026/jun/03/maureen-duffy-obituary",
+    "headline": "Maureen Duffy obituary",
+    "published": "2026-06-03",
+    "byline": "Claire Armitstead",
+    "thumbnail": "https://media.guim.co.uk/9a66d7915365cacff0ca3875e14f98db042eeb3a/1337_159_5529_4424/500.jpg",
+    "wordcount": 1037,
+    "section": "books",
+    "name": "Maureen Duffy",
+    "born": "1933-10-21",
+    "died": "2026-05-27",
+    "field": "poet, novelist and playwright",
+    "one_line": "Prolific writer and activist for LGBTQ+ and animal rights, and for authors' earnings",
+    "themes": [
+      "LGBTQ+ visibility",
+      "authors' rights",
+      "animal rights activism",
+      "postwar British theatre",
+      "outsider narratives"
+    ],
+    "best_quote": {
+      "text": "It's a funny old thing. I suppose I'll get used to it.",
+      "speaker": "Maureen Duffy"
+    },
+    "mentions": [
+      "Bernardine Evaristo",
+      "Doris Lessing",
+      "Kenneth Tynan",
+      "Joan Plowright",
+      "James Kirkup",
+      "James Callaghan",
+      "Elizabeth Taylor",
+      "Dolly Collins",
+      "Charles Dance"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-11",
+        "event": "Gay News blasphemous libel trial, which Duffy protested with her 1977 broadside The Ballad of the Blasphemy Trial"
+      },
+      {
+        "md": "07-01",
+        "event": "Public Lending Right Act 1979 passed, granting authors royalties for library borrowings after Duffy's Writers' Action Group campaign"
+      }
+    ],
+    "_enriched_at": "2026-06-05T08:12:02.680Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
