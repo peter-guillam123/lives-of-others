@@ -372627,5 +372627,145 @@
     ],
     "_enriched_at": "2026-06-05T08:12:02.680Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "uk-news/2026/jun/05/lady-pamela-hicks-obituary": {
+    "id": "uk-news/2026/jun/05/lady-pamela-hicks-obituary",
+    "url": "https://www.theguardian.com/uk-news/2026/jun/05/lady-pamela-hicks-obituary",
+    "headline": "Lady Pamela Hicks obituary",
+    "published": "2026-06-05",
+    "byline": "Stephen Bates",
+    "thumbnail": "https://media.guim.co.uk/07550fdd50a6794308ae45e8a1def287070d8b04/0_284_1602_1280/500.jpg",
+    "wordcount": 923,
+    "section": "uk-news",
+    "name": "Lady Pamela Hicks",
+    "born": "1929-04-19",
+    "died": "2026-06-05",
+    "field": "aristocrat and lady-in-waiting",
+    "one_line": "Great-great-granddaughter of Queen Victoria and lady-in-waiting to Elizabeth II.",
+    "themes": "royal household, British monarchy, Mountbatten family, India's independence",
+    "best_quote": {
+      "speaker": "Lady Pamela Hicks",
+      "text": "We loved the Irish, we lived there for so much of our lives. You have got to go forward – follow Gandhi's example."
+    },
+    "mentions": [
+      "Earl Mountbatten of Burma",
+      "Prince Philip",
+      "Queen Elizabeth II",
+      "Princess Margaret",
+      "Edwina Mountbatten",
+      "David Hicks",
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "Princess Elizabeth married Prince Philip, Pamela served as bridesmaid"
+      },
+      {
+        "md": "08-27",
+        "event": "Mountbatten assassinated by the IRA on his fishing boat"
+      },
+      {
+        "md": "06-02",
+        "event": "Attended Queen Elizabeth II's coronation as lady-in-waiting"
+      }
+    ],
+    "_enriched_at": "2026-06-06T06:57:05.849Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "football/2026/jun/05/bobby-tambling-obituary": {
+    "id": "football/2026/jun/05/bobby-tambling-obituary",
+    "url": "https://www.theguardian.com/football/2026/jun/05/bobby-tambling-obituary",
+    "headline": "Bobby Tambling obituary",
+    "published": "2026-06-05",
+    "byline": "Brian Glanville",
+    "thumbnail": "https://media.guim.co.uk/e2863600f10759d55c4c3c2e0070815c08469202/181_0_2597_2078/500.jpg",
+    "wordcount": 843,
+    "section": "football",
+    "name": "Bobby Tambling",
+    "born": "1941-09-18",
+    "died": "2026-06-03",
+    "field": "footballer",
+    "one_line": "Chelsea's record goalscorer with 202 goals, modest inside-forward overtaken by Lampard in 2013.",
+    "themes": [
+      "1960s Chelsea revival",
+      "English football",
+      "shy striker who lacked confidence"
+    ],
+    "best_quote": {
+      "speaker": "Bobby Tambling",
+      "text": "You may think it strange that a young man like me, a so-called international star, should suffer from lack of confidence in his own ability."
+    },
+    "mentions": [
+      "Jimmy Greaves",
+      "Peter Osgood",
+      "Gianfranco Zola",
+      "Didier Drogba",
+      "Frank Lampard",
+      "Tommy Docherty",
+      "Terry Venables",
+      "Peter Bonetti",
+      "Alf Ramsey",
+      "George Best",
+      "Kathleen Saunders",
+      "Valerie O'Connell"
+    ],
+    "notable_dates": [
+      {
+        "md": "02-03",
+        "event": "Scored winning goal on Chelsea debut vs West Ham, aged 17 (1959)"
+      },
+      {
+        "md": "09-06",
+        "event": "Scored five goals in Chelsea's 6-2 win at Aston Villa (1966)"
+      }
+    ],
+    "_enriched_at": "2026-06-06T06:57:06.637Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "politics/2026/jun/05/jeremy-hanley-obituary": {
+    "id": "politics/2026/jun/05/jeremy-hanley-obituary",
+    "url": "https://www.theguardian.com/politics/2026/jun/05/jeremy-hanley-obituary",
+    "headline": "Sir Jeremy Hanley obituary",
+    "published": "2026-06-05",
+    "byline": "Julia Langdon",
+    "thumbnail": "https://media.guim.co.uk/2de68b1cf0ddb72c4522fe39bbc8819428820fbd/150_127_5992_4795/500.jpg",
+    "wordcount": 1186,
+    "section": "politics",
+    "name": "Jeremy James Hanley",
+    "born": "1945-11-17",
+    "died": "2026-05-22",
+    "field": "Conservative politician and businessman",
+    "one_line": "Tory party chair brought down by Europe infighting and early media misstep.",
+    "themes": [
+      "John Major government",
+      "Conservative European schism",
+      "1990s British politics"
+    ],
+    "best_quote": {
+      "speaker": "Margaret Thatcher",
+      "text": "You won the 74 votes Jeremy; I won the other 20,000."
+    },
+    "mentions": [
+      "John Major",
+      "Brian Mawhinney",
+      "Dinah Sheridan",
+      "Jimmy Hanley",
+      "Jenny Hanley",
+      "John Davis",
+      "Mark Thatcher",
+      "John Tilley",
+      "Margaret Thatcher",
+      "Richard Luce"
+    ],
+    "notable_dates": [
+      {
+        "md": "11-17",
+        "event": "Jeremy Hanley's birthday; remembered after his prominent 1983 general election win with 74-vote majority"
+      }
+    ],
+    "_enriched_at": "2026-06-06T06:57:09.363Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
