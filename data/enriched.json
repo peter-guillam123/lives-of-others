@@ -372767,5 +372767,99 @@
     ],
     "_enriched_at": "2026-06-06T06:57:09.363Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "science/2026/jun/08/richard-scolyer-melanoma-researcher-experimental-treatment-brain-cancer-obituary": {
+    "id": "science/2026/jun/08/richard-scolyer-melanoma-researcher-experimental-treatment-brain-cancer-obituary",
+    "url": "https://www.theguardian.com/science/2026/jun/08/richard-scolyer-melanoma-researcher-experimental-treatment-brain-cancer-obituary",
+    "headline": "Richard Scolyer, acclaimed melanoma researcher who tried experimental treatment on his own brain cancer – obituary",
+    "published": "2026-06-07",
+    "byline": "Jennifer King",
+    "thumbnail": "https://media.guim.co.uk/a81c502270796d1cbae646cf7e5ba4afaf67f66d/334_0_6515_5215/500.jpg",
+    "wordcount": 969,
+    "section": "science",
+    "name": "Richard Scolyer",
+    "born": "1966-12-16",
+    "died": "2026-06-07",
+    "field": "melanoma pathologist and cancer researcher",
+    "one_line": "World-leading melanoma researcher who volunteered as patient zero for experimental brain cancer immunotherapy.",
+    "themes": [
+      "cancer immunotherapy",
+      "precision medicine",
+      "melanoma research",
+      "self-experimentation"
+    ],
+    "best_quote": {
+      "speaker": "Richard Scolyer",
+      "text": "Here was an opportunity for us to crack another incurable cancer and make a difference, if not for me then for others."
+    },
+    "mentions": [
+      "Georgina Long",
+      "Kate Nicoll",
+      "Jenny Scolyer",
+      "Maurice Scolyer",
+      "Mark Scolyer"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-25",
+        "event": "Named Australian of the Year with Georgina Long"
+      },
+      {
+        "md": "05-01",
+        "event": "Diagnosed with grade-four glioblastoma"
+      }
+    ],
+    "_enriched_at": "2026-06-08T08:58:43.805Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/07/anthony-head-obituary": {
+    "id": "tv-and-radio/2026/jun/07/anthony-head-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/07/anthony-head-obituary",
+    "headline": "Anthony Head obituary",
+    "published": "2026-06-07",
+    "byline": "Anthony Hayward",
+    "thumbnail": "https://media.guim.co.uk/19e9b1994b3e3b9577ad83d225ba7f657b01dce3/20_40_2763_2210/500.jpg",
+    "wordcount": 1032,
+    "section": "tv-and-radio",
+    "name": "Anthony Stewart Head",
+    "born": "1954-02-20",
+    "died": "2026-06-01",
+    "field": "actor",
+    "one_line": "Gold Blend coffee ad star and Buffy the Vampire Slayer's beloved Watcher mentor.",
+    "themes": [
+      "1980s-90s British advertising",
+      "supernatural television",
+      "cult TV drama",
+      "West End theatre"
+    ],
+    "best_quote": {
+      "speaker": "Anthony Stewart Head",
+      "text": "The secret of my success is all down to the twinkle in my eye. That translates in any country. I don't do it on purpose – it's just my playful side."
+    },
+    "mentions": [
+      "Sharon Maughan",
+      "Sarah Michelle Gellar",
+      "Alyson Hannigan",
+      "Nicholas Brendon",
+      "Joss Whedon",
+      "David Walliams",
+      "Tom Stoppard",
+      "Peter Shaffer",
+      "Geoffrey Howe",
+      "Margaret Thatcher",
+      "Meryl Streep",
+      "Sarah Fisher",
+      "Helen Shingler",
+      "Seafield Head",
+      "Murray Head"
+    ],
+    "notable_dates": [
+      {
+        "md": "02-20",
+        "event": "Birth of Anthony Stewart Head, future Buffy Watcher"
+      }
+    ],
+    "_enriched_at": "2026-06-08T08:58:43.978Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
