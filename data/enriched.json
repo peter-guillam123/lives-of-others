@@ -372861,5 +372861,147 @@
     ],
     "_enriched_at": "2026-06-08T08:58:43.978Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/09/john-claridge-obituary": {
+    "id": "artanddesign/2026/jun/09/john-claridge-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/09/john-claridge-obituary",
+    "headline": "John Claridge obituary",
+    "published": "2026-06-09",
+    "byline": "Greg Whitmore",
+    "thumbnail": "https://media.guim.co.uk/61b9e19426507fc7c75c9cb440248b64b2574290/139_0_2576_2061/500.jpg",
+    "wordcount": 1096,
+    "section": "artanddesign",
+    "name": "John Edward Claridge",
+    "born": "1944-08-15",
+    "died": "2026-05-24",
+    "field": "photographer",
+    "one_line": "Revered advertising and documentary photographer of London's disappearing East End",
+    "themes": [
+      "post-war East End",
+      "advertising photography",
+      "black-and-white documentary",
+      "Soho culture"
+    ],
+    "best_quote": {
+      "speaker": "John Claridge",
+      "text": "Photography was a natural language. This was my life."
+    },
+    "mentions": [
+      "Len Claridge",
+      "Doll Claridge",
+      "Robert Brownjohn",
+      "Bill Brandt",
+      "David Montgomery",
+      "Brian Duffy",
+      "David Bailey",
+      "Pauline Gallagher",
+      "Ronnie Scott",
+      "Chet Baker"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "First solo exhibition at McCann Erickson gallery displaying East End pictures (1961)"
+      },
+      {
+        "md": "01-01",
+        "event": "Set up independent studio near St Paul's Cathedral at age 19"
+      }
+    ],
+    "_enriched_at": "2026-06-10T08:12:30.927Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/09/peabo-bryson-obituary": {
+    "id": "music/2026/jun/09/peabo-bryson-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/09/peabo-bryson-obituary",
+    "headline": "Peabo Bryson obituary",
+    "published": "2026-06-09",
+    "byline": "Adam Sweeting",
+    "thumbnail": "https://media.guim.co.uk/f79eff4b4b28ad509c82010700cb60903ff13715/182_0_2637_2110/500.jpg",
+    "wordcount": 1252,
+    "section": "music",
+    "name": "Peabo Bryson",
+    "born": "1951-04-13",
+    "died": "2026-06-02",
+    "field": "soul singer and songwriter",
+    "one_line": "Soul singer whose duets with Roberta Flack and Céline Dion became defining hits.",
+    "themes": [
+      "R&B soul music",
+      "duet artistry",
+      "Disney soundtrack era",
+      "chitlin' circuit",
+      "adult contemporary"
+    ],
+    "best_quote": {
+      "speaker": "Peabo Bryson",
+      "text": "The secret to a really good duet is that you have to fall a little bit in love with your duet partner. I learned how to do a great duet from working with Roberta Flack."
+    },
+    "mentions": [
+      "Roberta Flack",
+      "Natalie Cole",
+      "Minnie Riperton",
+      "Céline Dion",
+      "Regina Belle",
+      "Bill Cosby",
+      "Eddie Biscoe",
+      "Sam Cooke",
+      "Little Richard",
+      "Tanya Boniface"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "Release of Beauty and the Beast duet with Céline Dion (1991)"
+      },
+      {
+        "md": "07-15",
+        "event": "Release of A Whole New World duet with Regina Belle (1992)"
+      }
+    ],
+    "_enriched_at": "2026-06-10T08:12:31.754Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/09/kanya-king-obituary": {
+    "id": "music/2026/jun/09/kanya-king-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/09/kanya-king-obituary",
+    "headline": "Kanya King obituary",
+    "published": "2026-06-09",
+    "byline": "Peter Mason",
+    "thumbnail": "https://media.guim.co.uk/98f90b0c04b75cea23c714ff550508613feb4c8d/342_0_3380_2704/500.jpg",
+    "wordcount": 898,
+    "section": "music",
+    "name": "Kanya King",
+    "born": "1969-02-12",
+    "died": "2026-06-03",
+    "field": "music promoter",
+    "one_line": "Co-founder of the Mobo awards, celebrating Black music in the UK since 1996.",
+    "themes": [
+      "Black British music",
+      "music awards",
+      "cultural entrepreneurship",
+      "music industry representation"
+    ],
+    "best_quote": {
+      "speaker": "Kanya King",
+      "text": "I just couldn't understand why there wasn't anything in this country to celebrate the music I grew up on."
+    },
+    "mentions": [
+      "Christian Ocloo",
+      "Mary Folan",
+      "Andy Ruffell",
+      "Lionel Richie",
+      "Tony Blair",
+      "Goldie",
+      "Courtney Pine",
+      "Stormzy"
+    ],
+    "notable_dates": [
+      {
+        "md": "02-12",
+        "event": "First Mobo Awards held, showcasing Goldie, Courtney Pine, and the Fugees"
+      }
+    ],
+    "_enriched_at": "2026-06-10T08:12:34.657Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
