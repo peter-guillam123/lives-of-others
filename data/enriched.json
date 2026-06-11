@@ -373003,5 +373003,91 @@
     ],
     "_enriched_at": "2026-06-10T08:12:34.657Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "politics/2026/jun/10/michael-meadowcroft-obituary": {
+    "id": "politics/2026/jun/10/michael-meadowcroft-obituary",
+    "url": "https://www.theguardian.com/politics/2026/jun/10/michael-meadowcroft-obituary",
+    "headline": "Michael Meadowcroft obituary",
+    "published": "2026-06-10",
+    "byline": "Martin Wainwright",
+    "thumbnail": "https://media.guim.co.uk/96ead65e52e65589d96a3377d0797a7f4a3efc23/228_198_4916_3932/500.jpg",
+    "wordcount": 966,
+    "section": "politics",
+    "name": "Michael James Meadowcroft",
+    "born": "1942-03-06",
+    "died": "2026-06-01",
+    "field": "Liberal politician and writer",
+    "one_line": "Yorkshire Liberal who broke through in Labour strongholds and championed democracy internationally.",
+    "themes": [
+      "Liberal Revival",
+      "community politics",
+      "electoral reform",
+      "Leeds local governance"
+    ],
+    "best_quote": {
+      "text": "He feared the socialist spider would swallow the liberal fly.",
+      "speaker": "obit writer"
+    },
+    "mentions": [
+      "Jo Grimond",
+      "Pratap Chitnis",
+      "John Battle",
+      "David Marquand",
+      "Liz Bee",
+      "Eluned Lloyd Jones"
+    ],
+    "notable_dates": [
+      {
+        "md": "03-16",
+        "event": "Orpington byelection triumph that launched the Liberal Revival (1962)"
+      }
+    ],
+    "_enriched_at": "2026-06-11T08:49:59.000Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "education/2026/jun/10/edgar-morin-obituary": {
+    "id": "education/2026/jun/10/edgar-morin-obituary",
+    "url": "https://www.theguardian.com/education/2026/jun/10/edgar-morin-obituary",
+    "headline": "Edgar Morin obituary",
+    "published": "2026-06-10",
+    "byline": "Stuart Jeffries",
+    "thumbnail": "https://media.guim.co.uk/d2c0fae1509fa112e299335f08ac8bc13cfed33d/254_0_2501_2000/500.jpg",
+    "wordcount": 1324,
+    "section": "education",
+    "name": "Edgar Morin",
+    "born": "1921-07-08",
+    "died": "2026-05-29",
+    "field": "sociologist, philosopher and film-maker",
+    "one_line": "Founder of transdisciplinarity who unified philosophy, sociology and film for holistic understanding.",
+    "themes": [
+      "French intellectual life",
+      "complexity theory",
+      "anti-fascism",
+      "cinéma verité",
+      "critical philosophy"
+    ],
+    "best_quote": {
+      "text": "In Paris or in Marrakech, I have never ceased to be curious about the world of which I am an atom.",
+      "speaker": "Edgar Morin"
+    },
+    "mentions": [
+      "Roland Barthes",
+      "Jean Rouch",
+      "Alain Badiou",
+      "Sami Naïr",
+      "Danièle Sallenave",
+      "Sabah Abouessalam",
+      "Edwige Lannegrace",
+      "Johanne Harrelle",
+      "Violette Chapellaubeau"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-20",
+        "event": "Chronicle of a Summer premiered, landmark cinéma verité documentary with Jean Rouch"
+      }
+    ],
+    "_enriched_at": "2026-06-11T08:50:07.815Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
