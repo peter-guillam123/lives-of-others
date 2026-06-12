@@ -373089,5 +373089,45 @@
     ],
     "_enriched_at": "2026-06-11T08:50:07.815Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/11/michael-keating-obituary": {
+    "id": "tv-and-radio/2026/jun/11/michael-keating-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/11/michael-keating-obituary",
+    "headline": "Michael Keating obituary",
+    "published": "2026-06-11",
+    "byline": "Toby Hadoke",
+    "thumbnail": "https://media.guim.co.uk/f13dc5f22aa6fbe303860d142a04f58aff43d8f7/172_0_4470_3576/500.jpg",
+    "wordcount": 932,
+    "section": "tv-and-radio",
+    "name": "Michael Frank Keating",
+    "born": "1947-02-10",
+    "died": "2026-04-26",
+    "field": "actor",
+    "one_line": "Vila the thief in Blake's 7, a cult BBC science-fiction series.",
+    "themes": [
+      "1970s-80s British television",
+      "cult science fiction",
+      "character acting"
+    ],
+    "best_quote": {
+      "speaker": "Paul Darrow",
+      "text": "A born comedian if ever there was one – with exquisite timing, particularly adept at the wry, throwaway one-liner"
+    },
+    "mentions": [
+      "Gareth Thomas",
+      "Paul Darrow",
+      "Terry Nation",
+      "David Jackson",
+      "June Brown",
+      "Charlton Heston"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "Blake's 7 premiere (25 April 1978)"
+      }
+    ],
+    "_enriched_at": "2026-06-12T08:37:32.113Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
