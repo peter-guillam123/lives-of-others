@@ -373129,5 +373129,101 @@
     ],
     "_enriched_at": "2026-06-12T08:37:32.113Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/12/julio-le-parc-obituary": {
+    "id": "artanddesign/2026/jun/12/julio-le-parc-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/12/julio-le-parc-obituary",
+    "headline": "Julio Le Parc obituary",
+    "published": "2026-06-12",
+    "byline": "Oliver Basciano",
+    "thumbnail": "https://media.guim.co.uk/5f950681f368e3536555dae5238c059e43fb06a8/0_654_3507_2806/500.jpg",
+    "wordcount": 1164,
+    "section": "artanddesign",
+    "name": "Julio Le Parc",
+    "born": "1928-09-23",
+    "died": "2026-05-30",
+    "field": "artist",
+    "one_line": "Argentinian artist who created participatory light and kinetic installations challenging passive spectatorship.",
+    "themes": [
+      "kinetic art",
+      "participatory art",
+      "post-war abstraction",
+      "Latin American activism",
+      "May 1968"
+    ],
+    "best_quote": {
+      "speaker": "Julio Le Parc",
+      "text": "It is prohibited not to participate. It is prohibited not to touch. It is prohibited not to break."
+    },
+    "mentions": [
+      "Martha Boto",
+      "Lucio Fontana",
+      "Juan Perón"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-19",
+        "event": "A Day in the Street, Grav's radical street art intervention in Paris"
+      },
+      {
+        "md": "05-30",
+        "event": "First solo exhibition at Palais de Tokyo marked 220,000 visitors and institution's most successful show"
+      }
+    ],
+    "_enriched_at": "2026-06-13T07:52:27.830Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/12/david-hockney-obituary": {
+    "id": "artanddesign/2026/jun/12/david-hockney-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/12/david-hockney-obituary",
+    "headline": "David Hockney obituary",
+    "published": "2026-06-12",
+    "byline": "Charles Darwent",
+    "thumbnail": "https://media.guim.co.uk/d37dfaddb9111812c0d4cf28b825a24c0a15f3b3/285_0_4320_3456/500.jpg",
+    "wordcount": 2276,
+    "section": "artanddesign",
+    "name": "David Hockney",
+    "born": "1937-07-09",
+    "died": "2026-06-11",
+    "field": "painter",
+    "one_line": "British painter who transformed the swimming pool into modernist icon.",
+    "themes": [
+      "1960s Los Angeles",
+      "pop art",
+      "British postwar art",
+      "LGBTQ+ visibility in art",
+      "technological innovation"
+    ],
+    "best_quote": {
+      "speaker": "David Hockney",
+      "text": "Smoking calms me down. It's enjoyable. I don't want politicians deciding what is exciting in my life."
+    },
+    "mentions": [
+      "Peter Schlesinger",
+      "Ossie Clark",
+      "Celia Birtwell",
+      "RB Kitaj",
+      "Ron Kitaj",
+      "Peter Blake",
+      "Frank Auerbach",
+      "Bridget Riley",
+      "Paul Kasmin",
+      "Cecil Beaton",
+      "Richard Hamilton",
+      "Jack Hazan",
+      "Jean-Pierre Gonçalves de Lima"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-09",
+        "event": "Hockney's 24th birthday, when he flew to New York and first saw Lady Clairol advertisement that inspired his transformation into a blond"
+      },
+      {
+        "md": "07-20",
+        "event": "The moon landing reference—no, this does not apply. Excluding as instructed."
+      }
+    ],
+    "_enriched_at": "2026-06-13T07:52:28.899Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
