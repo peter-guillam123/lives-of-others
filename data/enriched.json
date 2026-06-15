@@ -373225,5 +373225,245 @@
     ],
     "_enriched_at": "2026-06-13T07:52:28.899Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "stage/2026/jun/14/kenneth-bannerman-obituary": {
+    "id": "stage/2026/jun/14/kenneth-bannerman-obituary",
+    "url": "https://www.theguardian.com/stage/2026/jun/14/kenneth-bannerman-obituary",
+    "headline": "Kenneth Bannerman obituary",
+    "published": "2026-06-14",
+    "byline": "Jane Pritchard",
+    "thumbnail": "https://media.guim.co.uk/bd1727d5801f2c66b2f359660db432c16f15adb1/0_1281_4391_3512/500.jpg",
+    "wordcount": 801,
+    "section": "stage",
+    "name": "Kenneth Bannerman",
+    "born": "1936-10-04",
+    "died": "2026-05-23",
+    "field": "ballet dancer",
+    "one_line": "First British dancer to perform Basilio in Ballet Rambert's Don Quixote production.",
+    "themes": [
+      "1960s ballet",
+      "Ballet Rambert",
+      "classical repertory",
+      "contemporary dance"
+    ],
+    "best_quote": {
+      "speaker": "Dance and Dancers (1961)",
+      "text": "It seemed hardly possible that this was the same boy who, retiring and diffident, had started to walk on for the Ballet Rambert only two or three years previously."
+    },
+    "mentions": [
+      "Lucette Aldous",
+      "Rudolf Nureyev",
+      "Vladimir Vasiliev",
+      "Carlos Acosta",
+      "Witold Borkowski",
+      "Marjorie Middleton",
+      "Flemming Flindt",
+      "Norman Morrice",
+      "Clive Barnes",
+      "John Webley"
+    ],
+    "notable_dates": [
+      {
+        "md": "12-21",
+        "event": "First day UK civil partnerships became legal, when Bannerman and John Webley were among the first couples to enter into one"
+      },
+      {
+        "md": "05-23",
+        "event": "First British dancer to perform Basilio in Ballet Rambert's Don Quixote, in 1962"
+      }
+    ],
+    "_enriched_at": "2026-06-15T10:28:20.792Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "politics/2026/jun/14/roy-hattersley-lord-hattersley-obituary": {
+    "id": "politics/2026/jun/14/roy-hattersley-lord-hattersley-obituary",
+    "url": "https://www.theguardian.com/politics/2026/jun/14/roy-hattersley-lord-hattersley-obituary",
+    "headline": "Lord Hattersley obituary",
+    "published": "2026-06-14",
+    "byline": "Anne Perkins",
+    "thumbnail": "https://media.guim.co.uk/88670f89707148622c93ee0944d87ddc736e94a6/299_289_4804_2884/500.jpg",
+    "wordcount": 2620,
+    "section": "politics",
+    "name": "Roy Sydney George Hattersley, Lord Hattersley",
+    "born": "1932-12-28",
+    "died": "2026-06-13",
+    "field": "Labour politician, author and journalist",
+    "one_line": "Labour centrist who defended democratic socialism through decades of party upheaval.",
+    "themes": [
+      "Labour party politics, 1960s-2020s",
+      "British socialism and democratic values",
+      "centre-right Labour",
+      "education reform"
+    ],
+    "best_quote": {
+      "text": "Politics is a tough business, and the proper response to assaults and abuse from the wilder shores of socialism is neither surrender nor retreat. It is a determination to take the ideological battle into enemy territory.",
+      "speaker": "Roy Hattersley"
+    },
+    "mentions": [
+      "Enid Hattersley",
+      "Frederick Hattersley",
+      "Molly Loughran",
+      "Jim Callaghan",
+      "Roy Jenkins",
+      "Barbara Castle",
+      "Harold Wilson",
+      "Denis Healey",
+      "Edward Heath",
+      "Margaret Thatcher",
+      "Tony Crosland",
+      "Neil Kinnock",
+      "Michael Foot",
+      "Shirley Williams",
+      "David Owen",
+      "Bill Rodgers",
+      "Maggie Pearlstine"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-01",
+        "event": "Nationalisation of coal industry (which young Hattersley witnessed on vesting day 1947)"
+      }
+    ],
+    "_enriched_at": "2026-06-15T10:28:21.189Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "stage/2026/jun/14/peter-thomson-obituary": {
+    "id": "stage/2026/jun/14/peter-thomson-obituary",
+    "url": "https://www.theguardian.com/stage/2026/jun/14/peter-thomson-obituary",
+    "headline": "Peter Thomson obituary",
+    "published": "2026-06-14",
+    "byline": "David Edgar",
+    "thumbnail": "https://media.guim.co.uk/889851671c795d65d4f4e69b02d008253ac870d9/0_13_1698_1358/500.jpg",
+    "wordcount": 917,
+    "section": "stage",
+    "name": "Peter William Thomson",
+    "born": "1938-02-06",
+    "died": "2026-05-24",
+    "field": "drama scholar",
+    "one_line": "First professor of drama at Exeter, transformed theatre from literary study to performance discipline",
+    "themes": [
+      "British drama education",
+      "theatre in performance",
+      "20th-century academe",
+      "cultural resistance to Thatcher era"
+    ],
+    "best_quote": {
+      "speaker": "Peter Thomson",
+      "text": "Drama is a subject that demands deeds as well as words."
+    },
+    "mentions": [
+      "Stephen Joseph",
+      "Felix Barrett",
+      "Abi Morgan",
+      "Jessica Swale",
+      "David Eldridge",
+      "Dennis Potter",
+      "Michael Frayn",
+      "Ted Braun",
+      "Clare Venables",
+      "Rita Prince"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "1737 introduction of British theatre censorship, which Peter dramatised in student practical essay"
+      },
+      {
+        "md": "11-09",
+        "event": "1968 abolition of theatre censorship, the occasion Peter's students performed their drama-documentary on the 1737 Licensing Act"
+      }
+    ],
+    "_enriched_at": "2026-06-15T10:28:25.015Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/14/daphne-shadwell-obituary": {
+    "id": "tv-and-radio/2026/jun/14/daphne-shadwell-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/14/daphne-shadwell-obituary",
+    "headline": "Daphne Shadwell obituary",
+    "published": "2026-06-14",
+    "byline": "Anthony Hayward",
+    "thumbnail": "https://media.guim.co.uk/e27d70b1c5359aad7befbe6fcc7ceeea3ba5088b/419_0_4079_3264/500.jpg",
+    "wordcount": 950,
+    "section": "tv-and-radio",
+    "name": "Daphne Monica Winstanley Shadwell",
+    "born": "1927-12-22",
+    "died": "2026-05-25",
+    "field": "television producer and director",
+    "one_line": "Pioneering TV director who created Ready Steady Go's iconic catchphrase in the Swinging Sixties.",
+    "themes": [
+      "Swinging Sixties",
+      "early commercial television",
+      "children's television",
+      "British pop culture"
+    ],
+    "best_quote": {
+      "speaker": "Daphne Shadwell",
+      "text": "Most TV directors counted down 'ten, nine, eight etc'. I was different. I used to end the countdown with, 'Ready, steady, go!'"
+    },
+    "mentions": [
+      "Keith Fordyce",
+      "Cathy McGowan",
+      "Muriel Young",
+      "Howard Williams",
+      "Wally Whyton",
+      "Denise Coffey",
+      "David Jason",
+      "Eric Idle",
+      "Terry Jones",
+      "Michael Palin"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-29",
+        "event": "Ready Steady Go! launched on ITV as a live pop show"
+      },
+      {
+        "md": "06-26",
+        "event": "Do Not Adjust Your Set won award at 1968 Prix Jeunesse international festival in Munich"
+      }
+    ],
+    "_enriched_at": "2026-06-15T10:28:26.272Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/14/david-kemp-obituary": {
+    "id": "artanddesign/2026/jun/14/david-kemp-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/14/david-kemp-obituary",
+    "headline": "David Kemp obituary",
+    "published": "2026-06-14",
+    "byline": "Julian Spalding",
+    "thumbnail": "https://media.guim.co.uk/dc9e717ec4c56471ae8c3e49b1e1a94d7f8cccc8/679_0_5607_4485/500.jpg",
+    "wordcount": 790,
+    "section": "artanddesign",
+    "name": "David George Kemp",
+    "born": "1945-07-04",
+    "died": "2026-05-30",
+    "field": "artist and sculptor",
+    "one_line": "Sculptor who transformed industrial waste and junk into surreal, monumental public artworks.",
+    "themes": [
+      "industrial heritage",
+      "assemblage art",
+      "outsider artist",
+      "Cornish tin mining",
+      "environmental art"
+    ],
+    "best_quote": {
+      "speaker": "David Kemp",
+      "text": "An iron fish dreaming of voyages past through typhoons and pack ice"
+    },
+    "mentions": [
+      "Mercedes Esteban Maes",
+      "George Kemp",
+      "Lesley Kemp",
+      "Dorothy Green",
+      "Julian Spalding"
+    ],
+    "notable_dates": [
+      {
+        "md": "05-30",
+        "event": "Death of David Kemp, sculptor who memorialized industrial Britain and mining heritage"
+      }
+    ],
+    "_enriched_at": "2026-06-15T10:28:28.123Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
