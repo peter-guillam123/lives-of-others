@@ -373465,5 +373465,50 @@
     ],
     "_enriched_at": "2026-06-15T10:28:28.123Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/15/roger-cook-obituary": {
+    "id": "tv-and-radio/2026/jun/15/roger-cook-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/15/roger-cook-obituary",
+    "headline": "Roger Cook obituary",
+    "published": "2026-06-15",
+    "byline": "Anthony Hayward",
+    "thumbnail": "https://media.guim.co.uk/4aeb11fdc32198084e46b5ae2f60e5c8d57cdc94/201_53_1621_1297/500.jpg",
+    "wordcount": 1018,
+    "section": "tv-and-radio",
+    "name": "Roger James Cook",
+    "born": "1943-04-06",
+    "died": "2026-06-13",
+    "field": "investigative journalist and broadcaster",
+    "one_line": "Fearless investigative reporter who exposed fraudsters and criminals on Checkpoint and The Cook Report.",
+    "themes": [
+      "British consumer affairs television",
+      "investigative journalism",
+      "1970s-90s broadcasting",
+      "confrontational interviewing"
+    ],
+    "best_quote": {
+      "text": "What are your qualifications for running a financial organisation other than being a heavyweight wrestler?",
+      "speaker": "Roger Cook"
+    },
+    "mentions": [
+      "Madeline Koh",
+      "Frances Knox",
+      "Belinda Cook",
+      "Arthur Scargill",
+      "Roy Greenslade",
+      "Roger Windsor"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "Checkpoint programme launched on BBC Radio 4"
+      },
+      {
+        "md": "05-23",
+        "event": "The Cook Report premiered on ITV"
+      }
+    ],
+    "_enriched_at": "2026-06-16T09:30:58.564Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
