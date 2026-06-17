@@ -373510,5 +373510,53 @@
     ],
     "_enriched_at": "2026-06-16T09:30:58.564Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/16/abdullah-ibrahim-obituary": {
+    "id": "music/2026/jun/16/abdullah-ibrahim-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/16/abdullah-ibrahim-obituary",
+    "headline": "Abdullah Ibrahim obituary",
+    "published": "2026-06-16",
+    "byline": "Richard Williams",
+    "thumbnail": "https://media.guim.co.uk/325c106d3b29a9cdf5d9060ceecf29c4524de8b1/113_0_2850_2280/500.jpg",
+    "wordcount": 1179,
+    "section": "music",
+    "name": "Abdullah Ibrahim",
+    "born": "1934-10-09",
+    "died": "2026-06-15",
+    "field": "jazz pianist, composer and bandleader",
+    "one_line": "South African jazz pianist who blended township music with bebop innovation.",
+    "themes": [
+      "apartheid-era South African jazz",
+      "freedom struggle soundtrack",
+      "transnational jazz modernism"
+    ],
+    "best_quote": {
+      "text": "Our Mozart",
+      "speaker": "Nelson Mandela"
+    },
+    "mentions": [
+      "Bea Benjamin",
+      "Duke Ellington",
+      "Hugh Masekela",
+      "Kippie Moeketsi",
+      "Jonas Gwangwa",
+      "Art Blakey",
+      "Horace Silver",
+      "George Wein",
+      "Thelonious Monk",
+      "Don Cherry"
+    ],
+    "notable_dates": [
+      {
+        "md": "06-16",
+        "event": "Mannenberg recorded, becoming anthem of South African freedom struggle"
+      },
+      {
+        "md": "10-09",
+        "event": "Born in Cape Town"
+      }
+    ],
+    "_enriched_at": "2026-06-17T09:05:48.751Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
