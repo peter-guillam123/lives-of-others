@@ -373558,5 +373558,54 @@
     ],
     "_enriched_at": "2026-06-17T09:05:48.751Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/17/teddie-beverley-obituary": {
+    "id": "music/2026/jun/17/teddie-beverley-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/17/teddie-beverley-obituary",
+    "headline": "Teddie Beverley obituary",
+    "published": "2026-06-17",
+    "byline": "Spencer Leigh",
+    "thumbnail": "https://media.guim.co.uk/044953464c85019fe216c2821c759b95627d0164/221_0_4498_3600/500.jpg",
+    "wordcount": 794,
+    "section": "music",
+    "name": "Teddie Beverley",
+    "born": "1924-05-05",
+    "died": "2026-06-17",
+    "field": "singer",
+    "one_line": "Last surviving member of the 1950s hit vocal trio the Beverley Sisters.",
+    "themes": [
+      "1950s variety entertainment",
+      "British vocal harmony groups",
+      "post-war radio and television",
+      "gay club culture"
+    ],
+    "best_quote": {
+      "speaker": "Teddie Beverley",
+      "text": "We wanted to pierce the 50s bubble of primness."
+    },
+    "mentions": [
+      "Joy Beverley",
+      "Babs Beverley",
+      "Jock Ware",
+      "Cecil Madden",
+      "Bob Hope",
+      "Danny Kaye",
+      "Lita Roza",
+      "Peter Felix",
+      "Donald Cottage",
+      "Elizabeth Taylor",
+      "Peter Stringfellow",
+      "Syd Lawrence",
+      "Max Bygraves",
+      "Sasha"
+    ],
+    "notable_dates": [
+      {
+        "md": "06-17",
+        "event": "Last surviving Beverley Sister died, aged 99"
+      }
+    ],
+    "_enriched_at": "2026-06-18T08:53:41.493Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
