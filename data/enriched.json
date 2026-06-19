@@ -373607,5 +373607,54 @@
     ],
     "_enriched_at": "2026-06-18T08:53:41.493Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "politics/2026/jun/18/marion-kozak-obituary": {
+    "id": "politics/2026/jun/18/marion-kozak-obituary",
+    "url": "https://www.theguardian.com/politics/2026/jun/18/marion-kozak-obituary",
+    "headline": "Marion Kozak obituary",
+    "published": "2026-06-18",
+    "byline": "Michael Newman",
+    "thumbnail": "https://media.guim.co.uk/0443d2ccdcb8d6b30d2c06d668071f047ba13f92/445_715_519_416/500.jpg",
+    "wordcount": 1107,
+    "section": "politics",
+    "name": "Marion Kozak",
+    "born": "1934-12-22",
+    "died": "2026-05-27",
+    "field": "socialist activist and childcare campaigner",
+    "one_line": "Holocaust survivor who championed childcare rights and Palestinian justice for decades.",
+    "themes": [
+      "Holocaust survival",
+      "socialist feminism",
+      "children's rights",
+      "Polish-Jewish refugee experience",
+      "peace and justice activism"
+    ],
+    "best_quote": {
+      "speaker": "David and Ed Miliband",
+      "text": "a force field of love and life"
+    },
+    "mentions": [
+      "Ralph Miliband",
+      "David Miliband",
+      "Ed Miliband",
+      "Hadassa",
+      "Bronisława Kozak",
+      "Dawid Kozak",
+      "Asa Briggs",
+      "Helena Sitkowski",
+      "Andrzej Sitkowski"
+    ],
+    "notable_dates": [
+      {
+        "md": "09-01",
+        "event": "Nazi invasion of Poland, beginning Marion's family crisis"
+      },
+      {
+        "md": "05-20",
+        "event": "Nazi invasion of Belgium, when Ralph Miliband escaped"
+      }
+    ],
+    "_enriched_at": "2026-06-19T09:08:14.411Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
