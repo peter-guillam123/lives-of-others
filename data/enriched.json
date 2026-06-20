@@ -373656,5 +373656,55 @@
     ],
     "_enriched_at": "2026-06-19T09:08:14.411Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "uk-news/2026/jun/19/lady-ramsay-of-cartvale-obituary": {
+    "id": "uk-news/2026/jun/19/lady-ramsay-of-cartvale-obituary",
+    "url": "https://www.theguardian.com/uk-news/2026/jun/19/lady-ramsay-of-cartvale-obituary",
+    "headline": "Lady Ramsay of Cartvale obituary",
+    "published": "2026-06-19",
+    "byline": "Julia Langdon",
+    "thumbnail": "https://media.guim.co.uk/76902c6415362770e65b88046f7e1861567f4942/417_245_2671_2136/500.jpg",
+    "wordcount": 1150,
+    "section": "uk-news",
+    "name": "Lady Ramsay of Cartvale",
+    "born": "1936-07-12",
+    "died": "2026-05-28",
+    "field": "intelligence officer and politician",
+    "one_line": "Senior MI6 officer who rose highest among women before the spy service's first female head.",
+    "themes": [
+      "Cold War intelligence",
+      "women in espionage",
+      "British politics",
+      "Scottish establishment"
+    ],
+    "best_quote": {
+      "speaker": "Meta Ramsay",
+      "text": "The most serious problem was the fact that I was a woman."
+    },
+    "mentions": [
+      "John Smith",
+      "Elizabeth Bennett",
+      "Donald Dewar",
+      "Menzies Campbell",
+      "Derry Irvine",
+      "Oleg Gordievsky",
+      "Aldrich Ames",
+      "Tom Mangold",
+      "Robin Cook",
+      "Tony Blair",
+      "Blaise Metreweli"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-20",
+        "event": "First woman president of Glasgow University Students' Representative Council (1958)"
+      },
+      {
+        "md": "05-28",
+        "event": "Exfiltration of KGB defector Oleg Gordievsky from Helsinki (1985)"
+      }
+    ],
+    "_enriched_at": "2026-06-20T07:54:07.651Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
