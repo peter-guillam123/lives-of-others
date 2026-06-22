@@ -373706,5 +373706,50 @@
     ],
     "_enriched_at": "2026-06-20T07:54:07.651Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/21/david-daker-obituary": {
+    "id": "tv-and-radio/2026/jun/21/david-daker-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/21/david-daker-obituary",
+    "headline": "David Daker obituary",
+    "published": "2026-06-21",
+    "byline": "Anthony Hayward",
+    "thumbnail": "https://media.guim.co.uk/be77573db77a2360faf42910bf683b0be095fc84/0_20_4195_3356/500.jpg",
+    "wordcount": 974,
+    "section": "tv-and-radio",
+    "name": "Colin David Daker",
+    "born": "1935-09-29",
+    "died": "2026-04-30",
+    "field": "character actor",
+    "one_line": "Harry Crawford in the ITV comedy-drama Boon, reaching 15 million viewers.",
+    "themes": [
+      "1970s-80s British television",
+      "ITV comedy-drama",
+      "regional repertory theatre",
+      "post-war British character acting"
+    ],
+    "best_quote": {
+      "speaker": "David Daker",
+      "text": "I clearly remember playing a cow and falling so that its legs splayed about – and enjoying it when the others laughed and applauded."
+    },
+    "mentions": [
+      "Michael Elphick",
+      "Jim Diamond",
+      "Lindsay Anderson",
+      "Imogen Stubbs",
+      "David Murray",
+      "Richard O'Sullivan",
+      "Nicholas Lyndhurst",
+      "David Jason",
+      "Richard Beckinsale",
+      "Thora Hird"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-01",
+        "event": "Hi Ho Silver, Boon theme song, reached Top 10 UK charts"
+      }
+    ],
+    "_enriched_at": "2026-06-22T09:51:03.777Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
