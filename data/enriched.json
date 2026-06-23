@@ -373751,5 +373751,56 @@
     ],
     "_enriched_at": "2026-06-22T09:51:03.777Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "business/2026/jun/22/alan-greenspan-obituary": {
+    "id": "business/2026/jun/22/alan-greenspan-obituary",
+    "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-obituary",
+    "headline": "Alan Greenspan obituary",
+    "published": "2026-06-22",
+    "byline": "Ewen MacAskill",
+    "thumbnail": "https://media.guim.co.uk/8c903b2e91aae5343d762592fa4f36e9a2d4cf94/273_0_2565_2052/500.jpg",
+    "wordcount": 1662,
+    "section": "business",
+    "name": "Alan Greenspan",
+    "born": "1926-03-06",
+    "died": "2026-06-22",
+    "field": "Federal Reserve chairman and economist",
+    "one_line": "Fed chairman whose interventions shaped decades of US economic policy before the 2008 crash.",
+    "themes": [
+      "cold-war American capitalism",
+      "financial deregulation",
+      "libertarian ideology",
+      "1980s-2000s boom and bust"
+    ],
+    "best_quote": {
+      "text": "I made a mistake in presuming that the self-interests of organisations, specifically banks, were best capable of protecting their own shareholders.",
+      "speaker": "Alan Greenspan"
+    },
+    "mentions": [
+      "Ronald Reagan",
+      "George HW Bush",
+      "Bill Clinton",
+      "George W Bush",
+      "Ayn Rand",
+      "Justin Martin",
+      "Robert Reich",
+      "Sebastian Mallaby",
+      "Richard Nixon",
+      "Gerald Ford",
+      "Gordon Brown",
+      "Andrea Mitchell"
+    ],
+    "notable_dates": [
+      {
+        "md": "10-19",
+        "event": "Black Monday stock market crash; Greenspan's first major test as Fed chair"
+      },
+      {
+        "md": "12-11",
+        "event": "9/11 attacks; Greenspan pumped $100bn into monetary system in response"
+      }
+    ],
+    "_enriched_at": "2026-06-23T07:54:22.955Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
