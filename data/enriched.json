@@ -373802,5 +373802,98 @@
     ],
     "_enriched_at": "2026-06-23T07:54:22.955Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "world/2026/jun/09/marjane-satrapi-obituary": {
+    "id": "world/2026/jun/09/marjane-satrapi-obituary",
+    "url": "https://www.theguardian.com/world/2026/jun/09/marjane-satrapi-obituary",
+    "headline": "Marjane Satrapi obituary",
+    "published": "2026-06-09",
+    "byline": "Kim Willsher",
+    "thumbnail": "https://media.guim.co.uk/60ad2c9949691b5160edbde4451b4551d0ea2c57/581_0_1996_1597/500.jpg",
+    "wordcount": 1013,
+    "section": "world",
+    "name": "Marjane Ripa-Satrapi",
+    "born": "1969-11-22",
+    "died": "2026-06-04",
+    "field": "artist, writer and film director",
+    "one_line": "Created Persepolis, the graphic novel that brought Iran's struggles to millions",
+    "themes": [
+      "Iranian exile",
+      "graphic novel revolution",
+      "women under Islamic regime",
+      "Franco-Iranian identity"
+    ],
+    "best_quote": {
+      "text": "The true enemy of democracy is not a single person, or a regime. The true enemy of democracy is the patriarchal culture.",
+      "speaker": "Marjane Satrapi"
+    },
+    "mentions": [
+      "Vincent Paronnaud",
+      "David B",
+      "Pierre-François Beauchard",
+      "Mattias Ripa",
+      "Mahsa Amini",
+      "Iggy Pop",
+      "Catherine Deneuve",
+      "Gena Rowlands",
+      "Chiara Mastroianni"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "Persepolis published in France"
+      },
+      {
+        "md": "05-19",
+        "event": "Persepolis film won jury prize at Cannes Film Festival"
+      }
+    ],
+    "_enriched_at": "2026-06-24T07:49:08.965Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/23/clive-davis-obituary": {
+    "id": "music/2026/jun/23/clive-davis-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/23/clive-davis-obituary",
+    "headline": "Clive Davis obituary",
+    "published": "2026-06-23",
+    "byline": "Adam Sweeting",
+    "thumbnail": "https://media.guim.co.uk/71e88c0296930ca8bd0d83196d29c0d94fa33835/459_0_3028_2423/500.jpg",
+    "wordcount": 1506,
+    "section": "music",
+    "name": "Clive Jay Davis",
+    "born": "1932-04-04",
+    "died": "2026-06-22",
+    "field": "music industry executive",
+    "one_line": "Record mogul who discovered Whitney Houston, transformed Arista, and shaped modern music.",
+    "themes": [
+      "rock-era record industry",
+      "talent-spotting",
+      "1970s music business scandal",
+      "hip-hop integration"
+    ],
+    "best_quote": {
+      "speaker": "Barry Manilow",
+      "text": "He has the mind of an executive and the ears of a teenager."
+    },
+    "mentions": [
+      "Whitney Houston",
+      "Donovan",
+      "Janis Joplin",
+      "Chicago",
+      "Billy Joel",
+      "Bruce Springsteen",
+      "Barry Manilow",
+      "Aretha Franklin",
+      "Sean Combs",
+      "Carlos Santana"
+    ],
+    "notable_dates": [
+      {
+        "md": "06-04",
+        "event": "Monterey Pop Festival, where Davis signed Janis Joplin and other rock acts in 1967"
+      }
+    ],
+    "_enriched_at": "2026-06-24T07:49:09.227Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
