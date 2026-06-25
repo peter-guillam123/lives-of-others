@@ -373895,5 +373895,52 @@
     ],
     "_enriched_at": "2026-06-24T07:49:09.227Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/24/kay-patrick-obituary": {
+    "id": "tv-and-radio/2026/jun/24/kay-patrick-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/24/kay-patrick-obituary",
+    "headline": "Kay Patrick obituary",
+    "published": "2026-06-24",
+    "byline": "Toby Hadoke",
+    "thumbnail": "https://media.guim.co.uk/d29886c0de1fc48ff907afe41e6ee8c5335f9cec/0_0_2918_2335/500.jpg",
+    "wordcount": 767,
+    "section": "tv-and-radio",
+    "name": "Kay Patrick",
+    "born": "1941-09-02",
+    "died": "2026-06-02",
+    "field": "television director",
+    "one_line": "Directed 250+ Coronation Street episodes over 21 years, championing actors-first storytelling.",
+    "themes": [
+      "British soap opera",
+      "television directing",
+      "radio drama",
+      "BBC Manchester",
+      "new writing"
+    ],
+    "best_quote": {
+      "text": "The almost holy atmosphere she created in the studio during those last scenes… It's entirely down to Kay that those scenes were as raw and memorable as they were.",
+      "speaker": "Julie Hesmondhalgh"
+    },
+    "mentions": [
+      "Christopher Barry",
+      "Pat Sandys",
+      "Alfred Bradley",
+      "Julie Hesmondhalgh",
+      "William Hartnell",
+      "Patrick Connell",
+      "Frank Jackson",
+      "Maisie Jackson",
+      "June Jackson",
+      "Abbi",
+      "Malcolm"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-17",
+        "event": "Directed the Hayley Cropper death episode of Coronation Street, which drew over 10 million viewers"
+      }
+    ],
+    "_enriched_at": "2026-06-25T07:50:38.907Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
