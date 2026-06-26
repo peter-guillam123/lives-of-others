@@ -373942,5 +373942,130 @@
     ],
     "_enriched_at": "2026-06-25T07:50:38.907Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "books/2026/jun/25/jane-yolen-obituary": {
+    "id": "books/2026/jun/25/jane-yolen-obituary",
+    "url": "https://www.theguardian.com/books/2026/jun/25/jane-yolen-obituary",
+    "headline": "Jane Yolen obituary",
+    "published": "2026-06-25",
+    "byline": "Julia Eccleshare",
+    "thumbnail": "https://media.guim.co.uk/98251d162369be0671ce9af5cbbe86a9577ab710/354_0_2558_2047/500.jpg",
+    "wordcount": 693,
+    "section": "books",
+    "name": "Jane Hyatt Yolen",
+    "born": "1939-02-11",
+    "died": "2026-06-11",
+    "field": "children's author and editor",
+    "one_line": "Prolific author of fairytale retellings and fantasy novels for children with emotional depth.",
+    "themes": [
+      "children's literature",
+      "fairytale retellings",
+      "fantasy fiction",
+      "Holocaust literature"
+    ],
+    "best_quote": {
+      "text": "I believe that culture belongs in the cradle. Literature is a continuous process from childhood onward.",
+      "speaker": "Jane Yolen"
+    },
+    "mentions": [
+      "Isabel Berlin",
+      "Will Yolen",
+      "Steve Yolen",
+      "David Stemple",
+      "John Schoenhurr",
+      "Kirsten Dunst",
+      "Adam Stemple",
+      "Heidi Stemple",
+      "Jason Stemple"
+    ],
+    "notable_dates": [
+      {
+        "md": "02-11",
+        "event": "Publication of Pirates in Petticoats, Yolen's debut, on her 22nd birthday in 1963"
+      }
+    ],
+    "_enriched_at": "2026-06-26T07:57:49.635Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "fashion/2026/jun/25/nigel-cabourn-obituary": {
+    "id": "fashion/2026/jun/25/nigel-cabourn-obituary",
+    "url": "https://www.theguardian.com/fashion/2026/jun/25/nigel-cabourn-obituary",
+    "headline": "Nigel Cabourn obituary",
+    "published": "2026-06-25",
+    "byline": "Veronica Horwell",
+    "thumbnail": "https://media.guim.co.uk/8d56573c5ab7fdfaebfa0ea467e4ac0d1cccdc0e/777_0_4800_3840/500.jpg",
+    "wordcount": 996,
+    "section": "fashion",
+    "name": "Nigel Cabourn",
+    "born": "1949-10-07",
+    "died": "2026-06-11",
+    "field": "clothes designer",
+    "one_line": "Designer who transformed military and expeditionary garments into iconic menswear.",
+    "themes": [
+      "military heritage",
+      "vintage collecting",
+      "functional fashion",
+      "post-war workwear",
+      "British menswear"
+    ],
+    "best_quote": {
+      "text": "I'm like a big giant sieve of history and I just turn it into the clothes.",
+      "speaker": "Nigel Cabourn"
+    },
+    "mentions": [
+      "Paul Smith",
+      "Edmund Hillary",
+      "Lev Yashin",
+      "Sam Segure",
+      "John Cabourn",
+      "Edith Cabourn",
+      "Janet Bell",
+      "Emilie Casiez",
+      "Fred Perry"
+    ],
+    "notable_dates": [
+      {
+        "md": "10-07",
+        "event": "First worn by local football fans, the SV4 jacket became an international sensation"
+      }
+    ],
+    "_enriched_at": "2026-06-26T07:57:50.032Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/25/duane-michals-obituary": {
+    "id": "artanddesign/2026/jun/25/duane-michals-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/25/duane-michals-obituary",
+    "headline": "Duane Michals obituary",
+    "published": "2026-06-25",
+    "byline": "Michael Collins",
+    "thumbnail": "https://media.guim.co.uk/29d6ca0a46976d22138be10e056721e24b83eb44/0_0_4824_3860/500.jpg",
+    "wordcount": 913,
+    "section": "artanddesign",
+    "name": "Duane Michals",
+    "born": "1931",
+    "died": "2026",
+    "field": "photographer",
+    "one_line": "Pioneer of staged, narrative photography that challenged documentary truth.",
+    "themes": [
+      "surrealism",
+      "conceptual photography",
+      "staged tableaux",
+      "critique of documentary",
+      "Catholic imagery"
+    ],
+    "best_quote": {
+      "text": "I think that if you're a very serious person, it's very important to be very silly.",
+      "speaker": "Duane Michals"
+    },
+    "mentions": [
+      "René Magritte",
+      "Garry Winogrand",
+      "Eugene Atget",
+      "Henri Cartier-Bresson",
+      "Frederick Gorree"
+    ],
+    "notable_dates": [],
+    "_enriched_at": "2026-06-26T07:57:52.477Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
