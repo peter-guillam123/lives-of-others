@@ -374067,5 +374067,96 @@
     "notable_dates": [],
     "_enriched_at": "2026-06-26T07:57:52.477Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/26/meriel-dickinson-obituary": {
+    "id": "music/2026/jun/26/meriel-dickinson-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/26/meriel-dickinson-obituary",
+    "headline": "Meriel Dickinson obituary",
+    "published": "2026-06-26",
+    "byline": "Dalya Alberge",
+    "thumbnail": "https://media.guim.co.uk/a8a1f89a81cb06e94e782ca7554de4087de4889f/0_529_7376_5898/500.jpg",
+    "wordcount": 820,
+    "section": "music",
+    "name": "Meriel Dickinson",
+    "born": "1940-04-08",
+    "died": "2026-05-01",
+    "field": "mezzo-soprano",
+    "one_line": "Mezzo-soprano celebrated for classical, contemporary, and Weill repertoire with leading composers and conductors.",
+    "themes": [
+      "20th-century opera and song",
+      "Kurt Weill revival",
+      "contemporary classical music",
+      "BBC music culture"
+    ],
+    "best_quote": {
+      "text": "I was only 23 and full of optimism. On a scholarship, Dickinson moved to Vienna to study with Hans Karg.",
+      "speaker": "Meriel Dickinson"
+    },
+    "mentions": [
+      "Benjamin Britten",
+      "Pierre Boulez",
+      "John Cage",
+      "Aaron Copland",
+      "Adrian Boult",
+      "Simon Rattle",
+      "George Szell",
+      "Peter Dickinson",
+      "Lennox Berkeley",
+      "Andrzej Panufnik"
+    ],
+    "notable_dates": [
+      {
+        "md": "07-20",
+        "event": "Performed in BBC Proms premiere of Gordon Crosse's Memories of Morning: Night under Colin Davis (1973)"
+      },
+      {
+        "md": "04-25",
+        "event": "London solo debut with Park Lane Group (1964)"
+      }
+    ],
+    "_enriched_at": "2026-06-27T06:57:24.733Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jun/26/peter-ahrends-obituary": {
+    "id": "artanddesign/2026/jun/26/peter-ahrends-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jun/26/peter-ahrends-obituary",
+    "headline": "Peter Ahrends obituary",
+    "published": "2026-06-26",
+    "byline": "Catherine Slessor",
+    "thumbnail": "https://media.guim.co.uk/695d4fa492d2cb90ad3005d4ed13411ebee14a63/368_0_3559_2847/500.jpg",
+    "wordcount": 1274,
+    "section": "artanddesign",
+    "name": "Peter Ahrends",
+    "born": "1933-04-30",
+    "died": "2026-05-30",
+    "field": "architect",
+    "one_line": "Co-founding partner of ABK, whose National Gallery extension provoked the \"carbuncle\" speech.",
+    "themes": [
+      "British modernism",
+      "postwar architecture",
+      "social activism",
+      "anti-apartheid movement"
+    ],
+    "best_quote": {
+      "speaker": "Peter Ahrends",
+      "text": "Architecture should not be a question of whether or not we put Corinthian capitals on our facades. It is about people and their lives; about making spaces that will have a living, dynamic and significant relationship."
+    },
+    "mentions": [
+      "Richard Burton",
+      "Paul Koralek",
+      "John Kasmin",
+      "Eduardo Paolozzi",
+      "Prince of Wales",
+      "Frei Otto",
+      "Bruno Arons",
+      "Steffen Ahrends",
+      "Liz Robertson",
+      "Harold Wolpe",
+      "Denis Goldberg",
+      "Joe Slovo"
+    ],
+    "notable_dates": "\n[\n  {\n    \"md\": \"05-15\",\n    \"event\": \"National Gallery extension controversy, dubbed \"monstrous carbuncle\" by Prince of Wales (1984)\"\n  },\n  {\n    \"md\": \"06-12\",\n    \"event\": \"Berkeley Library at Trinity College Dublin completed, later renamed Eavan Boland Library (1967)\"\n  }\n]\n",
+    "_enriched_at": "2026-06-27T06:57:25.426Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
