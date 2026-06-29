@@ -374158,5 +374158,45 @@
     "notable_dates": "\n[\n  {\n    \"md\": \"05-15\",\n    \"event\": \"National Gallery extension controversy, dubbed \"monstrous carbuncle\" by Prince of Wales (1984)\"\n  },\n  {\n    \"md\": \"06-12\",\n    \"event\": \"Berkeley Library at Trinity College Dublin completed, later renamed Eavan Boland Library (1967)\"\n  }\n]\n",
     "_enriched_at": "2026-06-27T06:57:25.426Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "business/2026/jun/28/sir-geoffrey-whalen-obituary": {
+    "id": "business/2026/jun/28/sir-geoffrey-whalen-obituary",
+    "url": "https://www.theguardian.com/business/2026/jun/28/sir-geoffrey-whalen-obituary",
+    "headline": "Sir Geoffrey Whalen obituary",
+    "published": "2026-06-28",
+    "byline": "Martin Adeney",
+    "thumbnail": "https://media.guim.co.uk/185da89e41932831c6982ed785c76154df16b670/411_1429_3440_2752/500.jpg",
+    "wordcount": 987,
+    "section": "business",
+    "name": "Geoffrey Henry Whalen",
+    "born": "1936-01-08",
+    "died": "2026-04-07",
+    "field": "motor industry executive",
+    "one_line": "Kept British car manufacturing alive in Coventry through industrial relations expertise and leadership.",
+    "themes": [
+      "British motor industry decline",
+      "industrial relations",
+      "trade union negotiation",
+      "1970s-80s manufacturing",
+      "Coventry industry"
+    ],
+    "best_quote": {
+      "speaker": "Geoffrey Whalen",
+      "text": "I had been under terrific pressure for nearly eight years. I wasn't psychologically attuned to dismantling all I had been trying to achieve."
+    },
+    "mentions": [
+      "Mick McGahey",
+      "Michael Edwardes",
+      "George Turnbull",
+      "Charlotte Waud"
+    ],
+    "notable_dates": [
+      {
+        "md": "11-01",
+        "event": "1977 ballot accepting company-wide bargaining at British Leyland that preceded the 1978 skilled toolmakers' strike"
+      }
+    ],
+    "_enriched_at": "2026-06-29T09:02:14.542Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
