@@ -374198,5 +374198,103 @@
     ],
     "_enriched_at": "2026-06-29T09:02:14.542Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jun/29/dame-penelope-keith-obituary": {
+    "id": "tv-and-radio/2026/jun/29/dame-penelope-keith-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jun/29/dame-penelope-keith-obituary",
+    "headline": "Dame Penelope Keith obituary",
+    "published": "2026-06-29",
+    "byline": "Michael Coveney",
+    "thumbnail": "https://media.guim.co.uk/87ea36128b5b02d1b4289ab02cd0b72ba1d05660/147_0_2104_1683/500.jpg",
+    "wordcount": 1661,
+    "section": "tv-and-radio",
+    "name": "Penelope Anne Constance Keith",
+    "born": "1940-04-02",
+    "died": "2026-06-29",
+    "field": "actor",
+    "one_line": "Master of comic timing and snobbery in The Good Life and To the Manor Born.",
+    "themes": [
+      "1970s–80s British sitcom",
+      "West End comedy",
+      "middle-class social satire",
+      "Alan Ayckbourn era"
+    ],
+    "best_quote": {
+      "text": "She cleverly exploited the expectations of her public while also managing to undermine them.",
+      "speaker": "obit writer"
+    },
+    "mentions": [
+      "John Esmonde",
+      "Bob Larbey",
+      "Peter Spence",
+      "Paul Eddington",
+      "Richard Briers",
+      "Felicity Kendal",
+      "Peter Bowles",
+      "Alan Ayckbourn",
+      "Michael Codron",
+      "Tom Courtenay"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-25",
+        "event": "The Norman Conquests opened at the Globe Theatre"
+      },
+      {
+        "md": "06-17",
+        "event": "Appointed OBE"
+      }
+    ],
+    "_enriched_at": "2026-06-30T07:57:15.433Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "media/2026/jun/29/david-hencke-obituary": {
+    "id": "media/2026/jun/29/david-hencke-obituary",
+    "url": "https://www.theguardian.com/media/2026/jun/29/david-hencke-obituary",
+    "headline": "David Hencke obituary",
+    "published": "2026-06-29",
+    "byline": "Stephen Bates",
+    "thumbnail": "https://media.guim.co.uk/1b932ae946a81b69d6bb33309dd72a66c81aa393/52_87_1955_1563/500.jpg",
+    "wordcount": 1365,
+    "section": "media",
+    "name": "David Hencke",
+    "born": "1947-04-26",
+    "died": "2026-06-26",
+    "field": "investigative journalist",
+    "one_line": "Guardian investigative journalist who exposed the cash-for-questions scandal and Mandelson's secret loan.",
+    "themes": [
+      "1980s-90s British politics",
+      "cash-for-questions scandal",
+      "government accountability",
+      "Westminster reporting"
+    ],
+    "best_quote": {
+      "speaker": "Norman Tebbit",
+      "text": "You're the sort of chap who looks for information by hunting through people's bins. But I don't mind because you're not biased: you don't care whose bins you're looking through."
+    },
+    "mentions": [
+      "Margaret Hencke",
+      "Peter Preston",
+      "Neil Hamilton",
+      "Tim Smith",
+      "Peter Mandelson",
+      "Mohamed Al Fayed",
+      "Geoffrey Robinson",
+      "Ian Greer",
+      "Jonathan Aitken",
+      "Francis Beckett"
+    ],
+    "notable_dates": [
+      {
+        "md": "10-20",
+        "event": "Cash-for-questions scandal exposure"
+      },
+      {
+        "md": "12-22",
+        "event": "Peter Mandelson home loan scandal exposure"
+      }
+    ],
+    "_enriched_at": "2026-06-30T07:57:15.745Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
