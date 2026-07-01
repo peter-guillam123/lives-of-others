@@ -374296,5 +374296,112 @@
     ],
     "_enriched_at": "2026-06-30T07:57:15.745Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "stage/2026/jun/30/michael-byrne-obituary": {
+    "id": "stage/2026/jun/30/michael-byrne-obituary",
+    "url": "https://www.theguardian.com/stage/2026/jun/30/michael-byrne-obituary",
+    "headline": "Michael Byrne obituary",
+    "published": "2026-06-30",
+    "byline": "Michael Coveney",
+    "thumbnail": "https://media.guim.co.uk/ba217dbb29b3f97ac1958557acc695a71d242dc3/0_518_3744_2995/500.jpg",
+    "wordcount": 971,
+    "section": "stage",
+    "name": "Michael Byrne",
+    "born": "1943-11-07",
+    "died": "2026-06-20",
+    "field": "actor",
+    "one_line": "Supporting actor who worked with Olivier and starred in war films and Harry Potter",
+    "themes": [
+      "National Theatre repertory company",
+      "second world war cinema",
+      "elder statesman Shakespeare casting"
+    ],
+    "best_quote": {
+      "speaker": "Natasha Tripney",
+      "text": "A lucid and potent moment expressing dismay about the affront of ageing"
+    },
+    "mentions": [
+      "Laurence Olivier",
+      "Richard Attenborough",
+      "Guy Hamilton",
+      "Siân Phillips",
+      "Michael Medwin",
+      "Michael Billington",
+      "Alec Guinness",
+      "Sue Nicholls",
+      "Helen Worth",
+      "Maggie Smith",
+      "Robert Stephens",
+      "Michael Gambon",
+      "Harold Pinter",
+      "Simon Gray",
+      "Alan Bates",
+      "John Shrapnel",
+      "Sean Connery",
+      "Harrison Ford",
+      "Mel Gibson",
+      "Pierce Brosnan",
+      "Ian McKellen",
+      "Juliet Stevenson",
+      "Irving Wardle",
+      "Alan Rickman",
+      "Peter Hall",
+      "Michael Pennington",
+      "Judi Dench",
+      "Lia Williams",
+      "Rupert Everett",
+      "Katherine Parkinson",
+      "John Light"
+    ],
+    "notable_dates": [],
+    "_enriched_at": "2026-07-01T08:17:21.037Z",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jun/30/david-clayton-thomas-obituary": {
+    "id": "music/2026/jun/30/david-clayton-thomas-obituary",
+    "url": "https://www.theguardian.com/music/2026/jun/30/david-clayton-thomas-obituary",
+    "headline": "David Clayton-Thomas obituary",
+    "published": "2026-06-30",
+    "byline": "Adam Sweeting",
+    "thumbnail": "https://media.guim.co.uk/28d9e911bc6f8fbe2d2155fd02436ff394bcf84d/6_0_2490_1993/500.jpg",
+    "wordcount": 942,
+    "section": "music",
+    "name": "David Clayton-Thomas",
+    "born": "1941-09-13",
+    "died": "2026-06-24",
+    "field": "rock singer and songwriter",
+    "one_line": "Blood, Sweat & Tears singer who topped charts with Spinning Wheel and You've Made Me So Very Happy.",
+    "themes": [
+      "late 1960s rock",
+      "psychedelic era",
+      "jazz-rock fusion",
+      "Woodstock generation",
+      "cold-war politics"
+    ],
+    "best_quote": {
+      "speaker": "David Clayton-Thomas",
+      "text": "We went over there with the idea of just how much so-called communist fascism is American propaganda, and I found that the propaganda is pretty damn close to the truth."
+    },
+    "mentions": [
+      "Judy Collins",
+      "Bobby Colomby",
+      "Al Kooper",
+      "Richard Nixon",
+      "Tony Collacott",
+      "John Lee Hooker",
+      "Bob Dylan"
+    ],
+    "notable_dates": [
+      {
+        "md": "12-28",
+        "event": "Blood, Sweat & Tears self-titled album released, debuting Clayton-Thomas and hitting #1 on US charts"
+      },
+      {
+        "md": "08-15",
+        "event": "Blood, Sweat & Tears headlined Woodstock festival in 1969"
+      }
+    ],
+    "_enriched_at": "2026-07-01T08:17:27.836Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
