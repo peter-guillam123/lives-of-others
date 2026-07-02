@@ -374403,5 +374403,49 @@
     ],
     "_enriched_at": "2026-07-01T08:17:27.836Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "books/2026/jul/01/carlo-ginzburg-obituary": {
+    "id": "books/2026/jul/01/carlo-ginzburg-obituary",
+    "url": "https://www.theguardian.com/books/2026/jul/01/carlo-ginzburg-obituary",
+    "headline": "Carlo Ginzburg obituary",
+    "published": "2026-07-01",
+    "byline": "John Foot",
+    "thumbnail": "https://media.guim.co.uk/6871aa873f03b90968875ab56bc614544fcf2667/787_178_2040_1633/500.jpg",
+    "wordcount": 1159,
+    "section": "books",
+    "name": "Carlo Ginzburg",
+    "born": "1939-04-15",
+    "died": "2026-06-17",
+    "field": "historian",
+    "one_line": "Pioneering historian who revolutionised understanding through microhistory and archival research.",
+    "themes": [
+      "microhistory",
+      "Italian intellectual life",
+      "social history",
+      "Inquisition archives",
+      "postwar Europe"
+    ],
+    "best_quote": {
+      "speaker": "Carlo Ginzburg",
+      "text": "All was chaos, that is, earth, air, water, and fire were mixed together; and out of that bulk a mass formed – just as cheese is made out of milk – and worms appeared in it, and these were the angels."
+    },
+    "mentions": [
+      "Domenico Scandella",
+      "Leone Ginzburg",
+      "Natalia Ginzburg",
+      "Giulio Lepschy",
+      "Arnaldo Momigliano",
+      "Adriano Sofri",
+      "Anna Rossi-Doria",
+      "Luisa Ciammitti"
+    ],
+    "notable_dates": [
+      {
+        "md": "04-15",
+        "event": "Birth of Carlo Ginzburg (1939)"
+      }
+    ],
+    "_enriched_at": "2026-07-02T07:37:07.035Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
