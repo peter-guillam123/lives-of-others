@@ -374447,5 +374447,47 @@
     ],
     "_enriched_at": "2026-07-02T07:37:07.035Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "music/2026/jul/02/victor-willis-obituary": {
+    "id": "music/2026/jul/02/victor-willis-obituary",
+    "url": "https://www.theguardian.com/music/2026/jul/02/victor-willis-obituary",
+    "headline": "Victor Willis obituary",
+    "published": "2026-07-02",
+    "byline": "Adam Sweeting",
+    "thumbnail": "https://media.guim.co.uk/49117c6527d7dd8f320912df765cdb87d834487d/342_0_4382_3506/500.jpg",
+    "wordcount": 987,
+    "section": "music",
+    "name": "Victor Edward Willis",
+    "born": "1951-07-01",
+    "died": "2026-06-30",
+    "field": "disco vocalist",
+    "one_line": "Lead vocalist of Village People, creators of the enduring party anthem YMCA.",
+    "themes": [
+      "disco era",
+      "1970s pop culture",
+      "American stereotypes in performance",
+      "copyright battles"
+    ],
+    "best_quote": {
+      "speaker": "Victor Willis",
+      "text": "I got very depressed over the years and decided to just drop off the map. So much had been taken away from me that I just turned to drugs."
+    },
+    "mentions": [
+      "Jacques Morali",
+      "Henri Belolo",
+      "Ray Simpson",
+      "Karen Huff",
+      "Phylicia Ayers-Allen",
+      "Horace Ott",
+      "Donald Trump"
+    ],
+    "notable_dates": [
+      {
+        "md": "01-26",
+        "event": "Performed YMCA with Donald Trump before his second inauguration in January 2025"
+      }
+    ],
+    "_enriched_at": "2026-07-03T07:27:58.048Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
