@@ -374489,5 +374489,49 @@
     ],
     "_enriched_at": "2026-07-03T07:27:58.048Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "tv-and-radio/2026/jul/03/james-burrows-obituary": {
+    "id": "tv-and-radio/2026/jul/03/james-burrows-obituary",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/jul/03/james-burrows-obituary",
+    "headline": "James Burrows obituary",
+    "published": "2026-07-03",
+    "byline": "Michael Carlson",
+    "thumbnail": "https://media.guim.co.uk/90b8b193b6319e57c2d56aacd874192082337261/474_0_2459_1967/500.jpg",
+    "wordcount": 970,
+    "section": "tv-and-radio",
+    "name": "James Burrows",
+    "born": "1940-12-30",
+    "died": "2026-06-19",
+    "field": "television director",
+    "one_line": "Co-creator and director of Cheers who shaped the golden age of American sitcoms.",
+    "themes": [
+      "golden age of American sitcom",
+      "multi-camera sitcom technique",
+      "Broadway to television"
+    ],
+    "best_quote": {
+      "speaker": "James Burrows",
+      "text": "I'm not a film director. I'm a theatre rat. I stage a play every week, a 20- to 25-minute play, and then my camera comes in and covers it."
+    },
+    "mentions": [
+      "Abe Burrows",
+      "Norman Lear",
+      "Larry Gelbart",
+      "Grant Tinker",
+      "Mary Tyler Moore",
+      "Jay Sandrich",
+      "Glen Charles",
+      "Les Charles",
+      "Chuck Lorre",
+      "John Mahoney"
+    ],
+    "notable_dates": [
+      {
+        "md": "05-23",
+        "event": "Cheers final episode aired, second only to M*A*S*H as most-watched TV finale"
+      }
+    ],
+    "_enriched_at": "2026-07-04T06:51:36.230Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
