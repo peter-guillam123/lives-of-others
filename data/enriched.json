@@ -374533,5 +374533,51 @@
     ],
     "_enriched_at": "2026-07-04T06:51:36.230Z",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "artanddesign/2026/jul/05/beth-mckillop-obituary": {
+    "id": "artanddesign/2026/jul/05/beth-mckillop-obituary",
+    "url": "https://www.theguardian.com/artanddesign/2026/jul/05/beth-mckillop-obituary",
+    "headline": "Beth McKillop obituary",
+    "published": "2026-07-05",
+    "byline": "Sorcha Dallas",
+    "thumbnail": "https://media.guim.co.uk/327f9d473f248205acae655d73ef29c769ca8135/0_42_479_383/master/479.jpg",
+    "wordcount": 1024,
+    "section": "artanddesign",
+    "name": "Elizabeth Dorothy McKillop",
+    "born": "1953-05-28",
+    "died": "2026-05-26",
+    "field": "curator and museum scholar",
+    "one_line": "Pioneering curator who established Korean art as a field in Britain, transforming museum understanding.",
+    "themes": [
+      "Korean art history",
+      "museum curatorship",
+      "east Asian ceramics",
+      "cultural diplomacy",
+      "book history"
+    ],
+    "best_quote": {
+      "speaker": "Beth McKillop",
+      "text": "the vase pays homage to the Koryŏ tradition with its spreading rim, small loops at the shoulders, and delicately inlaid pair of white and black cranes in flight, yet diverges with its angular body"
+    },
+    "mentions": [
+      "Andy McKillop",
+      "Lucy McKillop",
+      "Joe McKillop",
+      "William Skillend",
+      "Shin Sang-ho",
+      "Lee Young-hee",
+      "Yi Man-bong",
+      "Yukio Fujimoto",
+      "Jane Portal",
+      "Nicholas Cullinan"
+    ],
+    "notable_dates": [
+      {
+        "md": "05-28",
+        "event": "Birth of Beth McKillop, curator who established Korean art as a field in Britain"
+      }
+    ],
+    "_enriched_at": "2026-07-06T08:26:29.190Z",
+    "_model": "claude-haiku-4-5-20251001"
   }
 }
